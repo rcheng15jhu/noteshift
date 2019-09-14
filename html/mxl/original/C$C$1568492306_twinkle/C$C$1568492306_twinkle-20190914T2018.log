@@ -1,0 +1,62 @@
+2019-09-14 20:18:27,642 INFO [C$C$1568492306_twinkle]                 Book.java:473  | 1 sheet in /var/www/html/uploads/C$C$1568492306_twinkle.pdf
+2019-09-14 20:18:27,802 INFO []                 Book.java:1660 | Stored /book.xml
+2019-09-14 20:18:27,803 INFO []                 Book.java:1613 | Book stored as /var/www/html/mxl/original/C$C$1568492306_twinkle/C$C$1568492306_twinkle.omr
+2019-09-14 20:18:27,805 INFO []                 Book.java:1327 | Book reaching PAGE on sheets:[#1]
+2019-09-14 20:18:27,807 INFO [C$C$1568492306_twinkle]       StepMonitoring.java:93   | LOAD
+2019-09-14 20:18:28,065 INFO [C$C$1568492306_twinkle]                 Book.java:1226 | Loaded image 1 2549x3299 from /var/www/html/uploads/C$C$1568492306_twinkle.pdf
+2019-09-14 20:18:28,069 INFO [C$C$1568492306_twinkle]       StepMonitoring.java:93   | BINARY
+2019-09-14 20:18:28,921 INFO [C$C$1568492306_twinkle]       StepMonitoring.java:93   | SCALE
+2019-09-14 20:18:28,946 INFO [C$C$1568492306_twinkle]         ScaleBuilder.java:557  | Second combo peak too different (170,171,171), ignored
+2019-09-14 20:18:28,950 INFO [C$C$1568492306_twinkle]         ScaleBuilder.java:492  | Beam minHeight:6 maxHeight:19 quorum:1793
+2019-09-14 20:18:28,950 INFO [C$C$1568492306_twinkle]         ScaleBuilder.java:235  | No beam key found, guessed value: 12
+2019-09-14 20:18:28,951 INFO [C$C$1568492306_twinkle]            ScaleStep.java:84   | Scale{line(3,3,4) interline(21,21,22) beam(12 extra)}
+2019-09-14 20:18:28,952 INFO [C$C$1568492306_twinkle]       StepMonitoring.java:93   | GRID
+2019-09-14 20:18:29,267 INFO [C$C$1568492306_twinkle]       LinesRetriever.java:447  | Global slope: 0.00000
+2019-09-14 20:18:29,320 INFO [C$C$1568492306_twinkle]    ClustersRetriever.java:235  | Retrieved line clusters: 8 of size: 5 with interline: interline(21,21,22)
+2019-09-14 20:18:29,512 INFO [C$C$1568492306_twinkle]            PeakGraph.java:177  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8]
+2019-09-14 20:18:29,807 INFO [C$C$1568492306_twinkle]        SystemManager.java:648  | Indentation detected for system#1
+2019-09-14 20:18:29,808 INFO [C$C$1568492306_twinkle]        SystemManager.java:731  | 1 part along 4 systems
+2019-09-14 20:18:29,809 INFO [C$C$1568492306_twinkle]       StepMonitoring.java:93   | HEADERS
+2019-09-14 20:18:29,981 INFO [C$C$1568492306_twinkle]      BasicClassifier.java:362  | Classifier loaded XML norms.
+2019-09-14 20:18:29,985 INFO [C$C$1568492306_twinkle]   AbstractClassifier.java:348  | Classifier data loaded from default uri file:///home/shintyl/audiveris/res/basic-classifier.zip
+2019-09-14 20:18:30,882 INFO [C$C$1568492306_twinkle]       StepMonitoring.java:93   | STEM_SEEDS
+2019-09-14 20:18:30,937 INFO [C$C$1568492306_twinkle]        StemSeedsStep.java:93   | stem(3 max:4)
+2019-09-14 20:18:30,982 INFO [C$C$1568492306_twinkle]       StepMonitoring.java:93   | BEAMS
+2019-09-14 20:18:36,534 INFO [C$C$1568492306_twinkle]       BlackHeadSizer.java:95   | Spots black-head retrieval diameter: 18.9
+2019-09-14 20:18:36,627 INFO [C$C$1568492306_twinkle]       BlackHeadSizer.java:243  | Core black head count: 26 blackHead(width:26.1~0.3 height:22.7~1.5)
+2019-09-14 20:18:36,630 INFO [C$C$1568492306_twinkle]       BlackHeadSizer.java:248  | MusicFont{name:MusicalSymbols pointSize:87}
+2019-09-14 20:18:36,713 INFO [C$C$1568492306_twinkle]       StepMonitoring.java:93   | LEDGERS
+2019-09-14 20:18:36,944 INFO [C$C$1568492306_twinkle]       StepMonitoring.java:93   | HEADS
+2019-09-14 20:18:39,718 INFO [C$C$1568492306_twinkle]       StepMonitoring.java:93   | STEMS
+2019-09-14 20:18:39,920 INFO [C$C$1568492306_twinkle]       StepMonitoring.java:93   | REDUCTION
+2019-09-14 20:18:39,953 INFO [C$C$1568492306_twinkle]       StepMonitoring.java:93   | CUE_BEAMS
+2019-09-14 20:18:39,954 INFO [C$C$1568492306_twinkle]       StepMonitoring.java:93   | TEXTS
+2019-09-14 20:18:39,956 WARN [C$C$1568492306_twinkle]            TextsStep.java:82   | TEXTS step: No OCR is available!
+2019-09-14 20:18:39,963 INFO [C$C$1568492306_twinkle]       StepMonitoring.java:93   | MEASURES
+2019-09-14 20:18:39,972 INFO [C$C$1568492306_twinkle]                 Page.java:251  | 24 raw measures: [6 in system#1, 6 in system#2, 6 in system#3, 6 in system#4]
+2019-09-14 20:18:39,972 INFO [C$C$1568492306_twinkle]       StepMonitoring.java:93   | CHORDS
+2019-09-14 20:18:39,987 INFO [C$C$1568492306_twinkle]       StepMonitoring.java:93   | CURVES
+2019-09-14 20:18:41,257 INFO [C$C$1568492306_twinkle]         SlursBuilder.java:156  | Slurs: 5
+2019-09-14 20:18:41,272 INFO [C$C$1568492306_twinkle]      SegmentsBuilder.java:110  | Segments: 6
+2019-09-14 20:18:41,276 INFO [C$C$1568492306_twinkle]       StepMonitoring.java:93   | SYMBOLS
+2019-09-14 20:18:41,595 INFO [C$C$1568492306_twinkle]         InterFactory.java:517  | No support yet for TIME_ZERO
+2019-09-14 20:18:41,715 INFO [C$C$1568492306_twinkle]       SymbolsBuilder.java:331  | Symbol parts shrunk from 8 to 7
+2019-09-14 20:18:41,802 INFO [C$C$1568492306_twinkle]       SymbolsBuilder.java:331  | Symbol parts shrunk from 24 to 7
+2019-09-14 20:18:41,850 INFO [C$C$1568492306_twinkle]       SymbolsBuilder.java:331  | Symbol parts shrunk from 11 to 7
+2019-09-14 20:18:41,895 INFO [C$C$1568492306_twinkle]       SymbolsBuilder.java:331  | Symbol parts shrunk from 9 to 7
+2019-09-14 20:18:41,926 INFO [C$C$1568492306_twinkle]         InterFactory.java:517  | No support yet for TIME_ZERO
+2019-09-14 20:18:41,931 INFO [C$C$1568492306_twinkle]         InterFactory.java:517  | No support yet for TIME_ZERO
+2019-09-14 20:18:41,954 INFO [C$C$1568492306_twinkle]       SymbolsBuilder.java:331  | Symbol parts shrunk from 17 to 7
+2019-09-14 20:18:41,992 INFO [C$C$1568492306_twinkle]       StepMonitoring.java:93   | LINKS
+2019-09-14 20:18:42,010 INFO [C$C$1568492306_twinkle]       StepMonitoring.java:93   | RHYTHMS
+2019-09-14 20:18:42,048 INFO [C$C$1568492306_twinkle]       StepMonitoring.java:93   | PAGE
+2019-09-14 20:18:42,054 INFO [C$C$1568492306_twinkle]            SheetStub.java:974  | Stub#1 storing
+2019-09-14 20:18:42,058 INFO [C$C$1568492306_twinkle]                 Book.java:1660 | Stored /book.xml
+2019-09-14 20:18:42,235 INFO [C$C$1568492306_twinkle]              Picture.java:784  | Stored /sheet#1/BINARY.xml
+2019-09-14 20:18:42,745 INFO [C$C$1568492306_twinkle]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2019-09-14 20:18:42,746 INFO [C$C$1568492306_twinkle]            SheetStub.java:979  | Sheet{C$C$1568492306_twinkle} disposed
+2019-09-14 20:18:43,255 INFO [C$C$1568492306_twinkle]            SheetStub.java:632  | Loaded /sheet#1/sheet#1.xml
+2019-09-14 20:18:43,256 INFO [C$C$1568492306_twinkle]                 Book.java:1451 | Scores built: 1
+2019-09-14 20:18:44,042 INFO [C$C$1568492306_twinkle]        ScoreExporter.java:88   | Score C$C$1568492306_twinkle exported to /var/www/html/mxl/original/C$C$1568492306_twinkle/C$C$1568492306_twinkle.mxl
+2019-09-14 20:18:44,153 INFO [C$C$1568492306_twinkle]                 Book.java:1660 | Stored /book.xml
+2019-09-14 20:18:44,154 INFO [C$C$1568492306_twinkle]                 Book.java:1613 | Book stored as /var/www/html/mxl/original/C$C$1568492306_twinkle/C$C$1568492306_twinkle.omr

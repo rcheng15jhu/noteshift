@@ -1,0 +1,596 @@
+2019-09-14 20:05:27,724 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550]                 Book.java:473  | 5 sheets in /var/www/html/uploads/Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550.pdf
+2019-09-14 20:05:27,917 INFO []                 Book.java:1660 | Stored /book.xml
+2019-09-14 20:05:27,917 INFO []                 Book.java:1613 | Book stored as /var/www/html/mxl/original/Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550/Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550.omr
+2019-09-14 20:05:27,920 INFO []                 Book.java:1327 | Book reaching PAGE on sheets:[#1#2#3#4#5]
+2019-09-14 20:05:27,922 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]       StepMonitoring.java:93   | LOAD
+2019-09-14 20:05:28,091 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                 Book.java:1226 | Loaded image 1 2479x3508 from /var/www/html/uploads/Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550.pdf
+2019-09-14 20:05:28,094 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]       StepMonitoring.java:93   | BINARY
+2019-09-14 20:05:28,856 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]       StepMonitoring.java:93   | SCALE
+2019-09-14 20:05:28,882 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]         ScaleBuilder.java:492  | Beam minHeight:6 maxHeight:18 quorum:2170
+2019-09-14 20:05:28,883 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]            ScaleStep.java:84   | Scale{line(1,2,3) interline(20,20,20) beam(10)}
+2019-09-14 20:05:28,885 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]       StepMonitoring.java:93   | GRID
+2019-09-14 20:05:29,305 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]       LinesRetriever.java:447  | Global slope: 0.00000
+2019-09-14 20:05:29,342 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]    ClustersRetriever.java:235  | Retrieved line clusters: 8 of size: 5 with interline: interline(20,20,20)
+2019-09-14 20:05:29,532 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]            PeakGraph.java:177  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8]
+2019-09-14 20:05:29,913 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]        SystemManager.java:731  | 1 part along 4 systems
+2019-09-14 20:05:29,915 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]       StepMonitoring.java:93   | HEADERS
+2019-09-14 20:05:30,107 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]      BasicClassifier.java:362  | Classifier loaded XML norms.
+2019-09-14 20:05:30,113 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]   AbstractClassifier.java:348  | Classifier data loaded from default uri file:///home/shintyl/audiveris/res/basic-classifier.zip
+2019-09-14 20:05:31,074 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]       StepMonitoring.java:93   | STEM_SEEDS
+2019-09-14 20:05:31,147 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]        StemSeedsStep.java:93   | stem(2 max:3)
+2019-09-14 20:05:31,202 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]       StepMonitoring.java:93   | BEAMS
+2019-09-14 20:05:35,494 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]       BlackHeadSizer.java:95   | Spots black-head retrieval diameter: 18.0
+2019-09-14 20:05:35,713 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]       BlackHeadSizer.java:243  | Core black head count: 80 blackHead(width:23.8~0.4 height:20.5~0.8)
+2019-09-14 20:05:35,715 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]       BlackHeadSizer.java:248  | MusicFont{name:MusicalSymbols pointSize:80}
+2019-09-14 20:05:35,887 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]            BeamsStep.java:86   | BeamDistance{count:9 mean:9.89 stdDev:7.42}
+2019-09-14 20:05:35,889 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]       StepMonitoring.java:93   | LEDGERS
+2019-09-14 20:05:36,593 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]       StepMonitoring.java:93   | HEADS
+2019-09-14 20:05:39,479 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]       StepMonitoring.java:93   | STEMS
+2019-09-14 20:05:39,921 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]       StepMonitoring.java:93   | REDUCTION
+2019-09-14 20:05:40,001 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]       StepMonitoring.java:93   | CUE_BEAMS
+2019-09-14 20:05:40,002 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]       StepMonitoring.java:93   | TEXTS
+2019-09-14 20:05:40,004 WARN [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]            TextsStep.java:82   | TEXTS step: No OCR is available!
+2019-09-14 20:05:40,010 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]       StepMonitoring.java:93   | MEASURES
+2019-09-14 20:05:40,018 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                 Page.java:251  | 12 raw measures: [3 in system#1, 3 in system#2, 3 in system#3, 3 in system#4]
+2019-09-14 20:05:40,018 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]       StepMonitoring.java:93   | CHORDS
+2019-09-14 20:05:40,040 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]       StepMonitoring.java:93   | CURVES
+2019-09-14 20:05:41,339 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]         SlursBuilder.java:156  | Slurs: 11
+2019-09-14 20:05:41,351 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]      SegmentsBuilder.java:110  | Segments: 15
+2019-09-14 20:05:41,356 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]       StepMonitoring.java:93   | SYMBOLS
+2019-09-14 20:05:41,622 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]         InterFactory.java:517  | No support yet for TIME_ZERO
+2019-09-14 20:05:41,644 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]       SymbolsBuilder.java:331  | Symbol parts shrunk from 12 to 7
+2019-09-14 20:05:41,682 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]       SymbolsBuilder.java:331  | Symbol parts shrunk from 8 to 7
+2019-09-14 20:05:41,707 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]       SymbolsBuilder.java:331  | Symbol parts shrunk from 13 to 7
+2019-09-14 20:05:41,727 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]       SymbolsBuilder.java:331  | Symbol parts shrunk from 9 to 7
+2019-09-14 20:05:41,762 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]         InterFactory.java:517  | No support yet for TIME_ZERO
+2019-09-14 20:05:41,769 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]         InterFactory.java:517  | No support yet for TIME_ZERO
+2019-09-14 20:05:41,780 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]       SymbolsBuilder.java:331  | Symbol parts shrunk from 10 to 7
+2019-09-14 20:05:41,871 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]       SymbolsBuilder.java:331  | Symbol parts shrunk from 10 to 7
+2019-09-14 20:05:41,911 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]       SymbolsBuilder.java:331  | Symbol parts shrunk from 12 to 7
+2019-09-14 20:05:41,957 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]       SymbolsBuilder.java:331  | Symbol parts shrunk from 34 to 7
+2019-09-14 20:05:41,976 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]         InterFactory.java:517  | No support yet for TIME_ZERO
+2019-09-14 20:05:41,996 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]         InterFactory.java:517  | No support yet for TIME_ZERO
+2019-09-14 20:05:42,002 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]         InterFactory.java:517  | No support yet for TIME_ZERO
+2019-09-14 20:05:42,059 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]         InterFactory.java:517  | No support yet for TIME_ZERO
+2019-09-14 20:05:42,090 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]       SymbolsBuilder.java:331  | Symbol parts shrunk from 10 to 7
+2019-09-14 20:05:42,188 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]         InterFactory.java:517  | No support yet for TIME_ZERO
+2019-09-14 20:05:42,190 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]       SymbolsBuilder.java:331  | Symbol parts shrunk from 12 to 7
+2019-09-14 20:05:42,256 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]         InterFactory.java:517  | No support yet for TIME_ZERO
+2019-09-14 20:05:42,274 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]         InterFactory.java:517  | No support yet for TIME_ZERO
+2019-09-14 20:05:42,292 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]       SymbolsBuilder.java:331  | Symbol parts shrunk from 10 to 7
+2019-09-14 20:05:42,315 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]         InterFactory.java:517  | No support yet for TIME_ZERO
+2019-09-14 20:05:42,517 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]       StepMonitoring.java:93   | LINKS
+2019-09-14 20:05:42,545 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]       StepMonitoring.java:93   | RHYTHMS
+2019-09-14 20:05:42,573 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]         SlotsBuilder.java:378  | Stack#5 endless loop detected
+2019-09-14 20:05:42,588 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]         SlotsBuilder.java:378  | Stack#10 endless loop detected
+2019-09-14 20:05:42,591 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]         SlotsBuilder.java:378  | Stack#11 endless loop detected
+2019-09-14 20:05:42,600 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                Voice.java:234  | S1 Measure{#1P1} Voice #1 too long 1/8
+2019-09-14 20:05:42,601 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]           StackTuner.java:88   | S1 MeasureStack#1 no correct rhythm
+2019-09-14 20:05:42,603 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                Voice.java:234  | S1 Measure{#2P1} Voice #1 too long 1/4
+2019-09-14 20:05:42,604 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]           StackTuner.java:88   | S1 MeasureStack#2 no correct rhythm
+2019-09-14 20:05:42,606 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                Voice.java:234  | S1 Measure{#3P1} Voice #1 too long 1/4
+2019-09-14 20:05:42,607 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]           StackTuner.java:88   | S1 MeasureStack#3 no correct rhythm
+2019-09-14 20:05:42,609 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                Voice.java:234  | S2 Measure{#4P1} Voice #1 too long 1/4
+2019-09-14 20:05:42,610 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]           StackTuner.java:88   | S2 MeasureStack#4 no correct rhythm
+2019-09-14 20:05:42,613 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]         SlotsBuilder.java:378  | Stack#5 endless loop detected
+2019-09-14 20:05:42,613 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                Voice.java:234  | S2 Measure{#5P1} Voice #1 too long 1/4
+2019-09-14 20:05:42,613 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                Voice.java:234  | S2 Measure{#5P1} Voice #2 too long 3/16
+2019-09-14 20:05:42,614 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]           StackTuner.java:88   | S2 MeasureStack#5 no correct rhythm
+2019-09-14 20:05:42,616 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]         SlotsBuilder.java:371  | S2 MeasureStack#6 Slot{#13 xOffset=609 timeOffset=11/8 incomings=[#2881] SUSPICIOUS}
+2019-09-14 20:05:42,617 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                Voice.java:234  | S2 Measure{#6P1} Voice #1 too long 1/8
+2019-09-14 20:05:42,617 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                Voice.java:234  | S2 Measure{#6P1} Voice #2 too long 1/4
+2019-09-14 20:05:42,617 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]           StackTuner.java:88   | S2 MeasureStack#6 no correct rhythm
+2019-09-14 20:05:42,620 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                Voice.java:234  | S3 Measure{#7P1} Voice #2 too long 1/4
+2019-09-14 20:05:42,621 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]           StackTuner.java:88   | S3 MeasureStack#7 no correct rhythm
+2019-09-14 20:05:42,624 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                Voice.java:234  | S3 Measure{#8P1} Voice #1 too long 1/8
+2019-09-14 20:05:42,625 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                Voice.java:234  | S3 Measure{#8P1} Voice #2 too long 1/4
+2019-09-14 20:05:42,625 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]           StackTuner.java:88   | S3 MeasureStack#8 no correct rhythm
+2019-09-14 20:05:42,628 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                Voice.java:234  | S3 Measure{#9P1} Voice #2 too long 1/4
+2019-09-14 20:05:42,628 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]           StackTuner.java:88   | S3 MeasureStack#9 no correct rhythm
+2019-09-14 20:05:42,631 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]         SlotsBuilder.java:378  | Stack#10 endless loop detected
+2019-09-14 20:05:42,631 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                Voice.java:234  | S4 Measure{#10P1} Voice #2 too long 1/8
+2019-09-14 20:05:42,632 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                Voice.java:234  | S4 Measure{#10P1} Voice #3 too long 1/16
+2019-09-14 20:05:42,632 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]           StackTuner.java:88   | S4 MeasureStack#10 no correct rhythm
+2019-09-14 20:05:42,635 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]         SlotsBuilder.java:378  | Stack#11 endless loop detected
+2019-09-14 20:05:42,635 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                Voice.java:234  | S4 Measure{#11P1} Voice #1 too long 1/16
+2019-09-14 20:05:42,636 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                Voice.java:234  | S4 Measure{#11P1} Voice #2 too long 1/8
+2019-09-14 20:05:42,636 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]           StackTuner.java:88   | S4 MeasureStack#11 no correct rhythm
+2019-09-14 20:05:42,639 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]         SlotsBuilder.java:371  | S4 MeasureStack#12 Slot{#11 xOffset=526 timeOffset=5/4 incomings=[#2986] SUSPICIOUS}
+2019-09-14 20:05:42,639 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                Voice.java:234  | S4 Measure{#12P1} Voice #2 too long 1/8
+2019-09-14 20:05:42,640 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                Voice.java:234  | S4 Measure{#12P1} Voice #5 too long 3/8
+2019-09-14 20:05:42,640 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]           StackTuner.java:88   | S4 MeasureStack#12 no correct rhythm
+2019-09-14 20:05:42,640 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]       StepMonitoring.java:93   | PAGE
+2019-09-14 20:05:42,643 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                Voice.java:234  | S1 Measure{#1P1} Voice #1 too long 1/8
+2019-09-14 20:05:42,644 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                Voice.java:234  | S1 Measure{#2P1} Voice #1 too long 1/4
+2019-09-14 20:05:42,645 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                Voice.java:234  | S1 Measure{#3P1} Voice #1 too long 1/4
+2019-09-14 20:05:42,645 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                Voice.java:234  | S2 Measure{#4P1} Voice #1 too long 1/4
+2019-09-14 20:05:42,645 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                Voice.java:234  | S2 Measure{#5P1} Voice #1 too long 1/4
+2019-09-14 20:05:42,645 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                Voice.java:234  | S2 Measure{#5P1} Voice #2 too long 3/16
+2019-09-14 20:05:42,646 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                Voice.java:234  | S2 Measure{#6P1} Voice #1 too long 1/8
+2019-09-14 20:05:42,646 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                Voice.java:234  | S2 Measure{#6P1} Voice #2 too long 1/4
+2019-09-14 20:05:42,646 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                Voice.java:234  | S3 Measure{#7P1} Voice #2 too long 1/4
+2019-09-14 20:05:42,646 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                Voice.java:234  | S3 Measure{#8P1} Voice #1 too long 1/8
+2019-09-14 20:05:42,646 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                Voice.java:234  | S3 Measure{#8P1} Voice #2 too long 1/4
+2019-09-14 20:05:42,647 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                Voice.java:234  | S3 Measure{#9P1} Voice #2 too long 1/4
+2019-09-14 20:05:42,647 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                Voice.java:234  | S4 Measure{#10P1} Voice #2 too long 1/8
+2019-09-14 20:05:42,647 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                Voice.java:234  | S4 Measure{#10P1} Voice #3 too long 1/16
+2019-09-14 20:05:42,647 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                Voice.java:234  | S4 Measure{#11P1} Voice #1 too long 1/16
+2019-09-14 20:05:42,648 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                Voice.java:234  | S4 Measure{#11P1} Voice #2 too long 1/8
+2019-09-14 20:05:42,648 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                Voice.java:234  | S4 Measure{#12P1} Voice #2 too long 1/8
+2019-09-14 20:05:42,648 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                Voice.java:234  | S4 Measure{#12P1} Voice #5 too long 3/8
+2019-09-14 20:05:42,649 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]            SheetStub.java:974  | Stub#1 storing
+2019-09-14 20:05:42,652 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                 Book.java:1660 | Stored /book.xml
+2019-09-14 20:05:42,880 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]              Picture.java:784  | Stored /sheet#1/BINARY.xml
+2019-09-14 20:05:43,762 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2019-09-14 20:05:43,766 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1]            SheetStub.java:979  | Sheet{Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#1} disposed
+2019-09-14 20:05:43,841 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]       StepMonitoring.java:93   | LOAD
+2019-09-14 20:05:43,899 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                 Book.java:1226 | Loaded image 2 2479x3508 from /var/www/html/uploads/Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550.pdf
+2019-09-14 20:05:43,900 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]       StepMonitoring.java:93   | BINARY
+2019-09-14 20:05:44,684 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]       StepMonitoring.java:93   | SCALE
+2019-09-14 20:05:44,713 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]         ScaleBuilder.java:492  | Beam minHeight:6 maxHeight:18 quorum:2604
+2019-09-14 20:05:44,713 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]            ScaleStep.java:84   | Scale{line(1,2,3) interline(20,20,20) beam(10)}
+2019-09-14 20:05:44,714 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]       StepMonitoring.java:93   | GRID
+2019-09-14 20:05:44,853 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]       LinesRetriever.java:447  | Global slope: 0.00000
+2019-09-14 20:05:44,871 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]    ClustersRetriever.java:235  | Retrieved line clusters: 10 of size: 5 with interline: interline(20,20,20)
+2019-09-14 20:05:44,950 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]            PeakGraph.java:177  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8] #5[9, 10]
+2019-09-14 20:05:45,184 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]        SystemManager.java:731  | 1 part along 5 systems
+2019-09-14 20:05:45,184 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]       StepMonitoring.java:93   | HEADERS
+2019-09-14 20:05:45,678 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]       StepMonitoring.java:93   | STEM_SEEDS
+2019-09-14 20:05:45,719 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]        StemSeedsStep.java:93   | stem(2 max:3)
+2019-09-14 20:05:45,744 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]       StepMonitoring.java:93   | BEAMS
+2019-09-14 20:05:49,707 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]       BlackHeadSizer.java:95   | Spots black-head retrieval diameter: 18.0
+2019-09-14 20:05:49,991 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]       BlackHeadSizer.java:243  | Core black head count: 111 blackHead(width:23.7~0.5 height:20.5~1.0)
+2019-09-14 20:05:49,993 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]       BlackHeadSizer.java:248  | MusicFont{name:MusicalSymbols pointSize:79}
+2019-09-14 20:05:50,107 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]            BeamsStep.java:86   | BeamDistance{count:3 mean:15.33 stdDev:0.29}
+2019-09-14 20:05:50,109 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]       StepMonitoring.java:93   | LEDGERS
+2019-09-14 20:05:50,458 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]       StepMonitoring.java:93   | HEADS
+2019-09-14 20:05:53,726 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]       StepMonitoring.java:93   | STEMS
+2019-09-14 20:05:53,928 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]       StepMonitoring.java:93   | REDUCTION
+2019-09-14 20:05:53,978 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]       StepMonitoring.java:93   | CUE_BEAMS
+2019-09-14 20:05:53,979 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]       StepMonitoring.java:93   | TEXTS
+2019-09-14 20:05:53,979 WARN [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]            TextsStep.java:82   | TEXTS step: No OCR is available!
+2019-09-14 20:05:53,980 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]       StepMonitoring.java:93   | MEASURES
+2019-09-14 20:05:53,981 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                 Page.java:251  | 15 raw measures: [3 in system#1, 3 in system#2, 3 in system#3, 3 in system#4, 3 in system#5]
+2019-09-14 20:05:53,982 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]       StepMonitoring.java:93   | CHORDS
+2019-09-14 20:05:53,994 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]       StepMonitoring.java:93   | CURVES
+2019-09-14 20:05:54,836 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]         SlursBuilder.java:156  | Slurs: 15
+2019-09-14 20:05:54,841 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]      SegmentsBuilder.java:110  | Segments: 16
+2019-09-14 20:05:54,842 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]       StepMonitoring.java:93   | SYMBOLS
+2019-09-14 20:05:55,231 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]       SymbolsBuilder.java:331  | Symbol parts shrunk from 11 to 7
+2019-09-14 20:05:55,311 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]       SymbolsBuilder.java:331  | Symbol parts shrunk from 12 to 7
+2019-09-14 20:05:55,342 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]       StepMonitoring.java:93   | LINKS
+2019-09-14 20:05:55,374 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]       StepMonitoring.java:93   | RHYTHMS
+2019-09-14 20:05:55,396 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]         SlotsBuilder.java:378  | Stack#11 endless loop detected
+2019-09-14 20:05:55,398 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]         SlotsBuilder.java:378  | Stack#12 endless loop detected
+2019-09-14 20:05:55,407 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S1 Measure{#1P1} Voice #1 too long 1/8
+2019-09-14 20:05:55,407 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S1 Measure{#1P1} Voice #5 too long 1/4
+2019-09-14 20:05:55,407 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S1 Measure{#1P1} Voice #6 too long 1/8
+2019-09-14 20:05:55,408 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]           StackTuner.java:88   | S1 MeasureStack#1 no correct rhythm
+2019-09-14 20:05:55,410 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S1 Measure{#2P1} Voice #5 too long 1/4
+2019-09-14 20:05:55,410 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]           StackTuner.java:88   | S1 MeasureStack#2 no correct rhythm
+2019-09-14 20:05:55,413 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S1 Measure{#3P1} Voice #1 too long 1/8
+2019-09-14 20:05:55,414 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S1 Measure{#3P1} Voice #2 too long 1/4
+2019-09-14 20:05:55,414 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]           StackTuner.java:88   | S1 MeasureStack#3 no correct rhythm
+2019-09-14 20:05:55,416 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S2 Measure{#4P1} Voice #1 too long 1/8
+2019-09-14 20:05:55,416 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S2 Measure{#4P1} Voice #2 too long 1/4
+2019-09-14 20:05:55,416 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S2 Measure{#4P1} Voice #5 too long 1/8
+2019-09-14 20:05:55,417 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]           StackTuner.java:88   | S2 MeasureStack#4 no correct rhythm
+2019-09-14 20:05:55,418 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S2 Measure{#5P1} Voice #1 too long 1/8
+2019-09-14 20:05:55,419 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S2 Measure{#5P1} Voice #2 too long 1/4
+2019-09-14 20:05:55,419 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]           StackTuner.java:88   | S2 MeasureStack#5 no correct rhythm
+2019-09-14 20:05:55,421 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S2 Measure{#6P1} Voice #1 too long 1/8
+2019-09-14 20:05:55,421 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S2 Measure{#6P1} Voice #2 too long 1/4
+2019-09-14 20:05:55,422 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S2 Measure{#6P1} Voice #5 too long 1/8
+2019-09-14 20:05:55,422 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]           StackTuner.java:88   | S2 MeasureStack#6 no correct rhythm
+2019-09-14 20:05:55,424 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S3 Measure{#7P1} Voice #2 too long 1/4
+2019-09-14 20:05:55,424 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]           StackTuner.java:88   | S3 MeasureStack#7 no correct rhythm
+2019-09-14 20:05:55,426 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S3 Measure{#8P1} Voice #2 too long 1/4
+2019-09-14 20:05:55,427 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]           StackTuner.java:88   | S3 MeasureStack#8 no correct rhythm
+2019-09-14 20:05:55,429 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S3 Measure{#9P1} Voice #5 too long 1/4
+2019-09-14 20:05:55,430 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]           StackTuner.java:88   | S3 MeasureStack#9 no correct rhythm
+2019-09-14 20:05:55,431 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S4 Measure{#10P1} Voice #1 too long 1/8
+2019-09-14 20:05:55,432 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S4 Measure{#10P1} Voice #5 too long 1/4
+2019-09-14 20:05:55,432 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]           StackTuner.java:88   | S4 MeasureStack#10 no correct rhythm
+2019-09-14 20:05:55,434 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]         SlotsBuilder.java:378  | Stack#11 endless loop detected
+2019-09-14 20:05:55,435 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S4 Measure{#11P1} Voice #1 too long 1/16
+2019-09-14 20:05:55,435 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S4 Measure{#11P1} Voice #2 too long 1/8
+2019-09-14 20:05:55,435 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]           StackTuner.java:88   | S4 MeasureStack#11 no correct rhythm
+2019-09-14 20:05:55,437 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]         SlotsBuilder.java:378  | Stack#12 endless loop detected
+2019-09-14 20:05:55,437 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S4 Measure{#12P1} Voice #1 too long 1/16
+2019-09-14 20:05:55,438 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S4 Measure{#12P1} Voice #2 too long 1/8
+2019-09-14 20:05:55,438 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]           StackTuner.java:88   | S4 MeasureStack#12 no correct rhythm
+2019-09-14 20:05:55,440 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S5 Measure{#13P1} Voice #1 too long 1/8
+2019-09-14 20:05:55,440 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S5 Measure{#13P1} Voice #2 too long 1/4
+2019-09-14 20:05:55,441 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S5 Measure{#13P1} Voice #5 too long 1/8
+2019-09-14 20:05:55,441 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]           StackTuner.java:88   | S5 MeasureStack#13 no correct rhythm
+2019-09-14 20:05:55,442 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S5 Measure{#14P1} Voice #1 too long 1/8
+2019-09-14 20:05:55,443 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S5 Measure{#14P1} Voice #2 too long 1/4
+2019-09-14 20:05:55,443 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S5 Measure{#14P1} Voice #5 too long 1/8
+2019-09-14 20:05:55,443 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]           StackTuner.java:88   | S5 MeasureStack#14 no correct rhythm
+2019-09-14 20:05:55,445 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S5 Measure{#15P1} Voice #1 too long 1/8
+2019-09-14 20:05:55,446 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S5 Measure{#15P1} Voice #2 too long 1/4
+2019-09-14 20:05:55,446 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S5 Measure{#15P1} Voice #5 too long 1/8
+2019-09-14 20:05:55,446 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]           StackTuner.java:88   | S5 MeasureStack#15 no correct rhythm
+2019-09-14 20:05:55,446 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]       StepMonitoring.java:93   | PAGE
+2019-09-14 20:05:55,447 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S1 Measure{#1P1} Voice #1 too long 1/8
+2019-09-14 20:05:55,447 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S1 Measure{#1P1} Voice #5 too long 1/4
+2019-09-14 20:05:55,447 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S1 Measure{#1P1} Voice #6 too long 1/8
+2019-09-14 20:05:55,448 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S1 Measure{#2P1} Voice #5 too long 1/4
+2019-09-14 20:05:55,448 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S1 Measure{#3P1} Voice #1 too long 1/8
+2019-09-14 20:05:55,448 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S1 Measure{#3P1} Voice #2 too long 1/4
+2019-09-14 20:05:55,448 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S2 Measure{#4P1} Voice #1 too long 1/8
+2019-09-14 20:05:55,448 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S2 Measure{#4P1} Voice #2 too long 1/4
+2019-09-14 20:05:55,448 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S2 Measure{#4P1} Voice #5 too long 1/8
+2019-09-14 20:05:55,449 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S2 Measure{#5P1} Voice #1 too long 1/8
+2019-09-14 20:05:55,449 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S2 Measure{#5P1} Voice #2 too long 1/4
+2019-09-14 20:05:55,449 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S2 Measure{#6P1} Voice #1 too long 1/8
+2019-09-14 20:05:55,449 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S2 Measure{#6P1} Voice #2 too long 1/4
+2019-09-14 20:05:55,449 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S2 Measure{#6P1} Voice #6 too long 1/8
+2019-09-14 20:05:55,449 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S3 Measure{#7P1} Voice #2 too long 1/4
+2019-09-14 20:05:55,450 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S3 Measure{#8P1} Voice #2 too long 1/4
+2019-09-14 20:05:55,450 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S3 Measure{#9P1} Voice #5 too long 1/4
+2019-09-14 20:05:55,450 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S4 Measure{#10P1} Voice #1 too long 1/8
+2019-09-14 20:05:55,450 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S4 Measure{#10P1} Voice #5 too long 1/4
+2019-09-14 20:05:55,451 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S4 Measure{#11P1} Voice #1 too long 1/16
+2019-09-14 20:05:55,451 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S4 Measure{#11P1} Voice #2 too long 1/8
+2019-09-14 20:05:55,451 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S4 Measure{#12P1} Voice #1 too long 1/16
+2019-09-14 20:05:55,451 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S4 Measure{#12P1} Voice #2 too long 1/8
+2019-09-14 20:05:55,451 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S5 Measure{#13P1} Voice #1 too long 1/8
+2019-09-14 20:05:55,451 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S5 Measure{#13P1} Voice #2 too long 1/4
+2019-09-14 20:05:55,452 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S5 Measure{#13P1} Voice #5 too long 1/8
+2019-09-14 20:05:55,452 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S5 Measure{#14P1} Voice #1 too long 1/8
+2019-09-14 20:05:55,452 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S5 Measure{#14P1} Voice #2 too long 1/4
+2019-09-14 20:05:55,452 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S5 Measure{#14P1} Voice #5 too long 1/8
+2019-09-14 20:05:55,452 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S5 Measure{#15P1} Voice #1 too long 1/8
+2019-09-14 20:05:55,453 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S5 Measure{#15P1} Voice #2 too long 1/4
+2019-09-14 20:05:55,453 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Voice.java:234  | S5 Measure{#15P1} Voice #5 too long 1/8
+2019-09-14 20:05:55,453 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]            SheetStub.java:974  | Stub#2 storing
+2019-09-14 20:05:55,455 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                 Book.java:1660 | Stored /book.xml
+2019-09-14 20:05:55,695 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]              Picture.java:784  | Stored /sheet#2/BINARY.xml
+2019-09-14 20:05:56,368 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]                Sheet.java:1246 | Stored /sheet#2/sheet#2.xml
+2019-09-14 20:05:56,371 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2]            SheetStub.java:979  | Sheet{Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#2} disposed
+2019-09-14 20:05:56,444 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]       StepMonitoring.java:93   | LOAD
+2019-09-14 20:05:56,508 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                 Book.java:1226 | Loaded image 3 2479x3508 from /var/www/html/uploads/Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550.pdf
+2019-09-14 20:05:56,509 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]       StepMonitoring.java:93   | BINARY
+2019-09-14 20:05:57,241 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]       StepMonitoring.java:93   | SCALE
+2019-09-14 20:05:57,244 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]         ScaleBuilder.java:557  | Second combo peak too different (150,150,150), ignored
+2019-09-14 20:05:57,244 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]         ScaleBuilder.java:492  | Beam minHeight:6 maxHeight:18 quorum:2608
+2019-09-14 20:05:57,244 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]            ScaleStep.java:84   | Scale{line(1,2,3) interline(20,20,20) beam(10)}
+2019-09-14 20:05:57,245 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]       StepMonitoring.java:93   | GRID
+2019-09-14 20:05:57,342 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]       LinesRetriever.java:447  | Global slope: 0.00000
+2019-09-14 20:05:57,358 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]    ClustersRetriever.java:235  | Retrieved line clusters: 10 of size: 5 with interline: interline(20,20,20)
+2019-09-14 20:05:57,416 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]            PeakGraph.java:177  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8] #5[9, 10]
+2019-09-14 20:05:57,628 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]        SystemManager.java:731  | 1 part along 5 systems
+2019-09-14 20:05:57,628 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]       StepMonitoring.java:93   | HEADERS
+2019-09-14 20:05:58,250 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]       StepMonitoring.java:93   | STEM_SEEDS
+2019-09-14 20:05:58,293 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]        StemSeedsStep.java:93   | stem(2 max:2)
+2019-09-14 20:05:58,303 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]       StepMonitoring.java:93   | BEAMS
+2019-09-14 20:06:02,381 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]       BlackHeadSizer.java:95   | Spots black-head retrieval diameter: 18.0
+2019-09-14 20:06:02,588 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]       BlackHeadSizer.java:243  | Core black head count: 88 blackHead(width:23.9~0.3 height:20.4~0.7)
+2019-09-14 20:06:02,589 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]       BlackHeadSizer.java:248  | MusicFont{name:MusicalSymbols pointSize:80}
+2019-09-14 20:06:02,705 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]            BeamsStep.java:86   | BeamDistance{count:2 mean:14.75 stdDev:0.35}
+2019-09-14 20:06:02,706 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]       StepMonitoring.java:93   | LEDGERS
+2019-09-14 20:06:02,925 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]       StepMonitoring.java:93   | HEADS
+2019-09-14 20:06:06,019 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]       StepMonitoring.java:93   | STEMS
+2019-09-14 20:06:06,194 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]       StepMonitoring.java:93   | REDUCTION
+2019-09-14 20:06:06,241 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]       StepMonitoring.java:93   | CUE_BEAMS
+2019-09-14 20:06:06,242 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]       StepMonitoring.java:93   | TEXTS
+2019-09-14 20:06:06,242 WARN [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]            TextsStep.java:82   | TEXTS step: No OCR is available!
+2019-09-14 20:06:06,243 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]       StepMonitoring.java:93   | MEASURES
+2019-09-14 20:06:06,244 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                 Page.java:251  | 15 raw measures: [3 in system#1, 3 in system#2, 3 in system#3, 3 in system#4, 3 in system#5]
+2019-09-14 20:06:06,244 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]       StepMonitoring.java:93   | CHORDS
+2019-09-14 20:06:06,259 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]       StepMonitoring.java:93   | CURVES
+2019-09-14 20:06:07,197 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]         SlursBuilder.java:156  | Slurs: 22
+2019-09-14 20:06:07,202 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]      SegmentsBuilder.java:110  | Segments: 27
+2019-09-14 20:06:07,203 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]       StepMonitoring.java:93   | SYMBOLS
+2019-09-14 20:06:07,389 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]       SymbolsBuilder.java:331  | Symbol parts shrunk from 8 to 7
+2019-09-14 20:06:07,440 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]       SymbolsBuilder.java:331  | Symbol parts shrunk from 12 to 7
+2019-09-14 20:06:07,618 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]       StepMonitoring.java:93   | LINKS
+2019-09-14 20:06:07,646 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]       StepMonitoring.java:93   | RHYTHMS
+2019-09-14 20:06:07,668 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]         SlotsBuilder.java:378  | Stack#15 endless loop detected
+2019-09-14 20:06:07,670 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S1 Measure{#1P1} Voice #1 too long 1/8
+2019-09-14 20:06:07,671 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S1 Measure{#1P1} Voice #2 too long 1/4
+2019-09-14 20:06:07,671 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]           StackTuner.java:88   | S1 MeasureStack#1 no correct rhythm
+2019-09-14 20:06:07,673 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S1 Measure{#2P1} Voice #1 too long 1/8
+2019-09-14 20:06:07,673 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S1 Measure{#2P1} Voice #2 too long 1/4
+2019-09-14 20:06:07,673 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]           StackTuner.java:88   | S1 MeasureStack#2 no correct rhythm
+2019-09-14 20:06:07,675 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S1 Measure{#3P1} Voice #1 too long 1/8
+2019-09-14 20:06:07,675 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S1 Measure{#3P1} Voice #2 too long 1/4
+2019-09-14 20:06:07,675 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]           StackTuner.java:88   | S1 MeasureStack#3 no correct rhythm
+2019-09-14 20:06:07,677 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S2 Measure{#4P1} Voice #5 too long 1/8
+2019-09-14 20:06:07,677 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S2 Measure{#4P1} Voice #8 too long 1/4
+2019-09-14 20:06:07,682 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]           StackTuner.java:88   | S2 MeasureStack#4 no correct rhythm
+2019-09-14 20:06:07,684 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S2 Measure{#5P1} Voice #1 too long 1/4
+2019-09-14 20:06:07,684 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]           StackTuner.java:88   | S2 MeasureStack#5 no correct rhythm
+2019-09-14 20:06:07,686 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S2 Measure{#6P1} Voice #1 too long 1/4
+2019-09-14 20:06:07,686 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]           StackTuner.java:88   | S2 MeasureStack#6 no correct rhythm
+2019-09-14 20:06:07,687 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S3 Measure{#7P1} Voice #1 too long 1/4
+2019-09-14 20:06:07,688 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]           StackTuner.java:88   | S3 MeasureStack#7 no correct rhythm
+2019-09-14 20:06:07,689 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S3 Measure{#8P1} Voice #1 too long 1/4
+2019-09-14 20:06:07,689 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]           StackTuner.java:88   | S3 MeasureStack#8 no correct rhythm
+2019-09-14 20:06:07,691 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S3 Measure{#9P1} Voice #1 too long 1/4
+2019-09-14 20:06:07,691 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]           StackTuner.java:88   | S3 MeasureStack#9 no correct rhythm
+2019-09-14 20:06:07,693 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S4 Measure{#10P1} Voice #1 too long 1/8
+2019-09-14 20:06:07,693 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S4 Measure{#10P1} Voice #2 too long 1/4
+2019-09-14 20:06:07,693 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]           StackTuner.java:88   | S4 MeasureStack#10 no correct rhythm
+2019-09-14 20:06:07,695 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S4 Measure{#11P1} Voice #1 too long 1/4
+2019-09-14 20:06:07,695 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S4 Measure{#11P1} Voice #2 too long 1/8
+2019-09-14 20:06:07,695 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]           StackTuner.java:88   | S4 MeasureStack#11 no correct rhythm
+2019-09-14 20:06:07,697 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S4 Measure{#12P1} Voice #1 too long 1/4
+2019-09-14 20:06:07,697 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S4 Measure{#12P1} Voice #2 too long 1/8
+2019-09-14 20:06:07,697 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]           StackTuner.java:88   | S4 MeasureStack#12 no correct rhythm
+2019-09-14 20:06:07,699 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S5 Measure{#13P1} Voice #1 too long 1/4
+2019-09-14 20:06:07,699 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]           StackTuner.java:88   | S5 MeasureStack#13 no correct rhythm
+2019-09-14 20:06:07,700 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S5 Measure{#14P1} Voice #1 too long 1/4
+2019-09-14 20:06:07,701 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]           StackTuner.java:88   | S5 MeasureStack#14 no correct rhythm
+2019-09-14 20:06:07,702 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]         SlotsBuilder.java:378  | Stack#15 endless loop detected
+2019-09-14 20:06:07,703 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S5 Measure{#15P1} Voice #1 too long 1/16
+2019-09-14 20:06:07,703 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S5 Measure{#15P1} Voice #2 too long 1/8
+2019-09-14 20:06:07,703 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]           StackTuner.java:88   | S5 MeasureStack#15 no correct rhythm
+2019-09-14 20:06:07,704 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]       StepMonitoring.java:93   | PAGE
+2019-09-14 20:06:07,704 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S1 Measure{#1P1} Voice #1 too long 1/8
+2019-09-14 20:06:07,704 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S1 Measure{#1P1} Voice #2 too long 1/4
+2019-09-14 20:06:07,705 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S1 Measure{#2P1} Voice #1 too long 1/8
+2019-09-14 20:06:07,705 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S1 Measure{#2P1} Voice #2 too long 1/4
+2019-09-14 20:06:07,705 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S1 Measure{#3P1} Voice #1 too long 1/8
+2019-09-14 20:06:07,705 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S1 Measure{#3P1} Voice #2 too long 1/4
+2019-09-14 20:06:07,705 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S2 Measure{#4P1} Voice #5 too long 1/8
+2019-09-14 20:06:07,705 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S2 Measure{#4P1} Voice #8 too long 1/4
+2019-09-14 20:06:07,705 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S2 Measure{#5P1} Voice #1 too long 1/4
+2019-09-14 20:06:07,705 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S2 Measure{#6P1} Voice #1 too long 1/4
+2019-09-14 20:06:07,706 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S3 Measure{#7P1} Voice #1 too long 1/4
+2019-09-14 20:06:07,706 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S3 Measure{#8P1} Voice #1 too long 1/4
+2019-09-14 20:06:07,706 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S3 Measure{#9P1} Voice #1 too long 1/4
+2019-09-14 20:06:07,706 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S4 Measure{#10P1} Voice #1 too long 1/8
+2019-09-14 20:06:07,706 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S4 Measure{#10P1} Voice #2 too long 1/4
+2019-09-14 20:06:07,706 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S4 Measure{#11P1} Voice #1 too long 1/4
+2019-09-14 20:06:07,707 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S4 Measure{#11P1} Voice #2 too long 1/8
+2019-09-14 20:06:07,707 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S4 Measure{#12P1} Voice #1 too long 1/4
+2019-09-14 20:06:07,707 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S4 Measure{#12P1} Voice #2 too long 1/8
+2019-09-14 20:06:07,707 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S5 Measure{#13P1} Voice #1 too long 1/4
+2019-09-14 20:06:07,707 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S5 Measure{#14P1} Voice #1 too long 1/4
+2019-09-14 20:06:07,707 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S5 Measure{#15P1} Voice #1 too long 1/16
+2019-09-14 20:06:07,707 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Voice.java:234  | S5 Measure{#15P1} Voice #2 too long 1/8
+2019-09-14 20:06:07,708 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]            SheetStub.java:974  | Stub#3 storing
+2019-09-14 20:06:07,710 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                 Book.java:1660 | Stored /book.xml
+2019-09-14 20:06:07,884 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]              Picture.java:784  | Stored /sheet#3/BINARY.xml
+2019-09-14 20:06:08,373 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]                Sheet.java:1246 | Stored /sheet#3/sheet#3.xml
+2019-09-14 20:06:08,380 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3]            SheetStub.java:979  | Sheet{Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#3} disposed
+2019-09-14 20:06:08,430 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]       StepMonitoring.java:93   | LOAD
+2019-09-14 20:06:08,458 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                 Book.java:1226 | Loaded image 4 2479x3508 from /var/www/html/uploads/Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550.pdf
+2019-09-14 20:06:08,458 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]       StepMonitoring.java:93   | BINARY
+2019-09-14 20:06:09,275 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]       StepMonitoring.java:93   | SCALE
+2019-09-14 20:06:09,279 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]         ScaleBuilder.java:492  | Beam minHeight:6 maxHeight:18 quorum:2646
+2019-09-14 20:06:09,279 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]            ScaleStep.java:84   | Scale{line(1,2,3) interline(19,20,20) beam(10)}
+2019-09-14 20:06:09,279 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]       StepMonitoring.java:93   | GRID
+2019-09-14 20:06:09,386 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]       LinesRetriever.java:447  | Global slope: 0.00000
+2019-09-14 20:06:09,397 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]    ClustersRetriever.java:235  | Retrieved line clusters: 10 of size: 5 with interline: interline(19,20,20)
+2019-09-14 20:06:09,472 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]            PeakGraph.java:177  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8] #5[9, 10]
+2019-09-14 20:06:09,662 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]        SystemManager.java:731  | 1 part along 5 systems
+2019-09-14 20:06:09,663 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]       StepMonitoring.java:93   | HEADERS
+2019-09-14 20:06:10,080 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]       StepMonitoring.java:93   | STEM_SEEDS
+2019-09-14 20:06:10,130 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]        StemSeedsStep.java:93   | stem(2 max:3)
+2019-09-14 20:06:10,138 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]       StepMonitoring.java:93   | BEAMS
+2019-09-14 20:06:13,883 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]       BlackHeadSizer.java:95   | Spots black-head retrieval diameter: 18.0
+2019-09-14 20:06:14,175 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]       BlackHeadSizer.java:243  | Core black head count: 115 blackHead(width:24.0~0.2 height:20.8~0.8)
+2019-09-14 20:06:14,180 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]       BlackHeadSizer.java:248  | MusicFont{name:MusicalSymbols pointSize:80}
+2019-09-14 20:06:14,294 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]            BeamsStep.java:86   | BeamDistance{count:6 mean:15.25 stdDev:0.42}
+2019-09-14 20:06:14,295 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]       StepMonitoring.java:93   | LEDGERS
+2019-09-14 20:06:14,589 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]       StepMonitoring.java:93   | HEADS
+2019-09-14 20:06:17,562 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]       StepMonitoring.java:93   | STEMS
+2019-09-14 20:06:17,707 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]       StepMonitoring.java:93   | REDUCTION
+2019-09-14 20:06:17,754 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]       StepMonitoring.java:93   | CUE_BEAMS
+2019-09-14 20:06:17,755 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]       StepMonitoring.java:93   | TEXTS
+2019-09-14 20:06:17,755 WARN [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]            TextsStep.java:82   | TEXTS step: No OCR is available!
+2019-09-14 20:06:17,756 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]       StepMonitoring.java:93   | MEASURES
+2019-09-14 20:06:17,757 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                 Page.java:251  | 15 raw measures: [3 in system#1, 3 in system#2, 3 in system#3, 3 in system#4, 3 in system#5]
+2019-09-14 20:06:17,757 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]       StepMonitoring.java:93   | CHORDS
+2019-09-14 20:06:17,768 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]       StepMonitoring.java:93   | CURVES
+2019-09-14 20:06:18,516 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]         SlursBuilder.java:156  | Slurs: 20
+2019-09-14 20:06:18,520 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]      SegmentsBuilder.java:110  | Segments: 17
+2019-09-14 20:06:18,521 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]       StepMonitoring.java:93   | SYMBOLS
+2019-09-14 20:06:18,725 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]       SymbolsBuilder.java:331  | Symbol parts shrunk from 10 to 7
+2019-09-14 20:06:18,835 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]       StepMonitoring.java:93   | LINKS
+2019-09-14 20:06:18,857 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]       StepMonitoring.java:93   | RHYTHMS
+2019-09-14 20:06:18,860 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]         SlotsBuilder.java:378  | Stack#1 endless loop detected
+2019-09-14 20:06:18,865 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]         SlotsBuilder.java:378  | Stack#4 endless loop detected
+2019-09-14 20:06:18,866 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]         SlotsBuilder.java:378  | Stack#5 endless loop detected
+2019-09-14 20:06:18,883 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]         SlotsBuilder.java:378  | Stack#1 endless loop detected
+2019-09-14 20:06:18,884 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S1 Measure{#1P1} Voice #1 too long 1/16
+2019-09-14 20:06:18,885 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S1 Measure{#1P1} Voice #2 too long 1/8
+2019-09-14 20:06:18,885 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]           StackTuner.java:88   | S1 MeasureStack#1 no correct rhythm
+2019-09-14 20:06:18,886 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S1 Measure{#2P1} Voice #2 too long 1/4
+2019-09-14 20:06:18,887 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]           StackTuner.java:88   | S1 MeasureStack#2 no correct rhythm
+2019-09-14 20:06:18,889 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S1 Measure{#3P1} Voice #1 too long 1/8
+2019-09-14 20:06:18,889 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S1 Measure{#3P1} Voice #2 too long 1/4
+2019-09-14 20:06:18,889 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]           StackTuner.java:88   | S1 MeasureStack#3 no correct rhythm
+2019-09-14 20:06:18,891 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]         SlotsBuilder.java:378  | Stack#4 endless loop detected
+2019-09-14 20:06:18,892 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S2 Measure{#4P1} Voice #1 too long 1/16
+2019-09-14 20:06:18,892 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S2 Measure{#4P1} Voice #2 too long 1/8
+2019-09-14 20:06:18,892 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]           StackTuner.java:88   | S2 MeasureStack#4 no correct rhythm
+2019-09-14 20:06:18,894 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]         SlotsBuilder.java:378  | Stack#5 endless loop detected
+2019-09-14 20:06:18,894 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S2 Measure{#5P1} Voice #1 too long 1/16
+2019-09-14 20:06:18,894 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S2 Measure{#5P1} Voice #2 too long 1/8
+2019-09-14 20:06:18,894 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]           StackTuner.java:88   | S2 MeasureStack#5 no correct rhythm
+2019-09-14 20:06:18,896 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S2 Measure{#6P1} Voice #1 too long 1/8
+2019-09-14 20:06:18,896 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S2 Measure{#6P1} Voice #2 too long 1/4
+2019-09-14 20:06:18,896 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S2 Measure{#6P1} Voice #5 too long 1/8
+2019-09-14 20:06:18,896 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]           StackTuner.java:88   | S2 MeasureStack#6 no correct rhythm
+2019-09-14 20:06:18,898 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S3 Measure{#7P1} Voice #2 too long 1/4
+2019-09-14 20:06:18,898 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]           StackTuner.java:88   | S3 MeasureStack#7 no correct rhythm
+2019-09-14 20:06:18,900 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S3 Measure{#8P1} Voice #2 too long 1/4
+2019-09-14 20:06:18,900 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]           StackTuner.java:88   | S3 MeasureStack#8 no correct rhythm
+2019-09-14 20:06:18,901 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S3 Measure{#9P1} Voice #1 too long 1/8
+2019-09-14 20:06:18,902 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S3 Measure{#9P1} Voice #2 too long 1/4
+2019-09-14 20:06:18,902 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]           StackTuner.java:88   | S3 MeasureStack#9 no correct rhythm
+2019-09-14 20:06:18,904 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S4 Measure{#10P1} Voice #1 too long 1/8
+2019-09-14 20:06:18,904 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S4 Measure{#10P1} Voice #2 too long 1/4
+2019-09-14 20:06:18,904 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S4 Measure{#10P1} Voice #5 too long 1/8
+2019-09-14 20:06:18,904 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]           StackTuner.java:88   | S4 MeasureStack#10 no correct rhythm
+2019-09-14 20:06:18,906 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S4 Measure{#11P1} Voice #1 too long 1/8
+2019-09-14 20:06:18,906 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S4 Measure{#11P1} Voice #2 too long 1/4
+2019-09-14 20:06:18,906 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]           StackTuner.java:88   | S4 MeasureStack#11 no correct rhythm
+2019-09-14 20:06:18,908 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S4 Measure{#12P1} Voice #1 too long 1/8
+2019-09-14 20:06:18,908 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S4 Measure{#12P1} Voice #2 too long 1/4
+2019-09-14 20:06:18,908 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S4 Measure{#12P1} Voice #5 too long 1/8
+2019-09-14 20:06:18,909 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]           StackTuner.java:88   | S4 MeasureStack#12 no correct rhythm
+2019-09-14 20:06:18,910 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S5 Measure{#13P1} Voice #2 too long 1/4
+2019-09-14 20:06:18,910 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]           StackTuner.java:88   | S5 MeasureStack#13 no correct rhythm
+2019-09-14 20:06:18,912 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S5 Measure{#14P1} Voice #1 too long 1/8
+2019-09-14 20:06:18,912 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S5 Measure{#14P1} Voice #2 too long 1/4
+2019-09-14 20:06:18,912 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S5 Measure{#14P1} Voice #5 too long 1/8
+2019-09-14 20:06:18,912 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]           StackTuner.java:88   | S5 MeasureStack#14 no correct rhythm
+2019-09-14 20:06:18,915 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S5 Measure{#15P1} Voice #1 too long 1/8
+2019-09-14 20:06:18,915 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S5 Measure{#15P1} Voice #2 too long 1/4
+2019-09-14 20:06:18,915 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S5 Measure{#15P1} Voice #5 too long 1/8
+2019-09-14 20:06:18,915 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]           StackTuner.java:88   | S5 MeasureStack#15 no correct rhythm
+2019-09-14 20:06:18,916 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]       StepMonitoring.java:93   | PAGE
+2019-09-14 20:06:18,916 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S1 Measure{#1P1} Voice #1 too long 1/16
+2019-09-14 20:06:18,917 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S1 Measure{#1P1} Voice #2 too long 1/8
+2019-09-14 20:06:18,917 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S1 Measure{#2P1} Voice #2 too long 1/4
+2019-09-14 20:06:18,917 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S1 Measure{#3P1} Voice #1 too long 1/8
+2019-09-14 20:06:18,917 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S1 Measure{#3P1} Voice #2 too long 1/4
+2019-09-14 20:06:18,918 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S2 Measure{#4P1} Voice #1 too long 1/16
+2019-09-14 20:06:18,918 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S2 Measure{#4P1} Voice #2 too long 1/8
+2019-09-14 20:06:18,918 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S2 Measure{#5P1} Voice #1 too long 1/16
+2019-09-14 20:06:18,918 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S2 Measure{#5P1} Voice #2 too long 1/8
+2019-09-14 20:06:18,918 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S2 Measure{#6P1} Voice #1 too long 1/8
+2019-09-14 20:06:18,918 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S2 Measure{#6P1} Voice #2 too long 1/4
+2019-09-14 20:06:18,919 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S2 Measure{#6P1} Voice #5 too long 1/8
+2019-09-14 20:06:18,919 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S3 Measure{#7P1} Voice #2 too long 1/4
+2019-09-14 20:06:18,919 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S3 Measure{#8P1} Voice #2 too long 1/4
+2019-09-14 20:06:18,919 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S3 Measure{#9P1} Voice #1 too long 1/8
+2019-09-14 20:06:18,919 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S3 Measure{#9P1} Voice #2 too long 1/4
+2019-09-14 20:06:18,919 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S4 Measure{#10P1} Voice #1 too long 1/8
+2019-09-14 20:06:18,919 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S4 Measure{#10P1} Voice #2 too long 1/4
+2019-09-14 20:06:18,920 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S4 Measure{#10P1} Voice #5 too long 1/8
+2019-09-14 20:06:18,920 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S4 Measure{#11P1} Voice #1 too long 1/8
+2019-09-14 20:06:18,920 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S4 Measure{#11P1} Voice #2 too long 1/4
+2019-09-14 20:06:18,920 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S4 Measure{#12P1} Voice #1 too long 1/8
+2019-09-14 20:06:18,920 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S4 Measure{#12P1} Voice #2 too long 1/4
+2019-09-14 20:06:18,920 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S4 Measure{#12P1} Voice #5 too long 1/8
+2019-09-14 20:06:18,921 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S5 Measure{#13P1} Voice #2 too long 1/4
+2019-09-14 20:06:18,921 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S5 Measure{#14P1} Voice #1 too long 1/8
+2019-09-14 20:06:18,921 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S5 Measure{#14P1} Voice #2 too long 1/4
+2019-09-14 20:06:18,921 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S5 Measure{#14P1} Voice #5 too long 1/8
+2019-09-14 20:06:18,921 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S5 Measure{#15P1} Voice #1 too long 1/8
+2019-09-14 20:06:18,921 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S5 Measure{#15P1} Voice #2 too long 1/4
+2019-09-14 20:06:18,921 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Voice.java:234  | S5 Measure{#15P1} Voice #5 too long 1/8
+2019-09-14 20:06:18,922 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]            SheetStub.java:974  | Stub#4 storing
+2019-09-14 20:06:18,923 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                 Book.java:1660 | Stored /book.xml
+2019-09-14 20:06:19,164 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]              Picture.java:784  | Stored /sheet#4/BINARY.xml
+2019-09-14 20:06:19,626 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]                Sheet.java:1246 | Stored /sheet#4/sheet#4.xml
+2019-09-14 20:06:19,630 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4]            SheetStub.java:979  | Sheet{Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#4} disposed
+2019-09-14 20:06:19,677 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]       StepMonitoring.java:93   | LOAD
+2019-09-14 20:06:19,700 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                 Book.java:1226 | Loaded image 5 2479x3508 from /var/www/html/uploads/Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550.pdf
+2019-09-14 20:06:19,701 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]       StepMonitoring.java:93   | BINARY
+2019-09-14 20:06:20,430 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]       StepMonitoring.java:93   | SCALE
+2019-09-14 20:06:20,440 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]         ScaleBuilder.java:492  | Beam minHeight:6 maxHeight:18 quorum:2058
+2019-09-14 20:06:20,440 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]            ScaleStep.java:84   | Scale{line(2,2,3) interline(20,20,20) beam(10)}
+2019-09-14 20:06:20,441 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]       StepMonitoring.java:93   | GRID
+2019-09-14 20:06:20,527 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]       LinesRetriever.java:447  | Global slope: 0.00000
+2019-09-14 20:06:20,540 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]    ClustersRetriever.java:235  | Retrieved line clusters: 8 of size: 5 with interline: interline(20,20,20)
+2019-09-14 20:06:20,586 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]            PeakGraph.java:177  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8]
+2019-09-14 20:06:20,761 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]        SystemManager.java:731  | 1 part along 4 systems
+2019-09-14 20:06:20,762 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]       StepMonitoring.java:93   | HEADERS
+2019-09-14 20:06:21,154 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]       StepMonitoring.java:93   | STEM_SEEDS
+2019-09-14 20:06:21,198 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]        StemSeedsStep.java:93   | stem(2 max:2)
+2019-09-14 20:06:21,208 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]       StepMonitoring.java:93   | BEAMS
+2019-09-14 20:06:25,155 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]       BlackHeadSizer.java:95   | Spots black-head retrieval diameter: 18.0
+2019-09-14 20:06:25,320 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]       BlackHeadSizer.java:243  | Core black head count: 70 blackHead(width:24.0~0.2 height:20.7~0.9)
+2019-09-14 20:06:25,321 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]       BlackHeadSizer.java:248  | MusicFont{name:MusicalSymbols pointSize:80}
+2019-09-14 20:06:25,383 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]            BeamsStep.java:86   | BeamDistance{count:14 mean:12.64 stdDev:5.36}
+2019-09-14 20:06:25,384 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]       StepMonitoring.java:93   | LEDGERS
+2019-09-14 20:06:25,496 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]       StepMonitoring.java:93   | HEADS
+2019-09-14 20:06:27,909 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]       StepMonitoring.java:93   | STEMS
+2019-09-14 20:06:28,025 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]       StepMonitoring.java:93   | REDUCTION
+2019-09-14 20:06:28,060 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]       StepMonitoring.java:93   | CUE_BEAMS
+2019-09-14 20:06:28,060 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]       StepMonitoring.java:93   | TEXTS
+2019-09-14 20:06:28,061 WARN [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]            TextsStep.java:82   | TEXTS step: No OCR is available!
+2019-09-14 20:06:28,061 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]       StepMonitoring.java:93   | MEASURES
+2019-09-14 20:06:28,062 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                 Page.java:251  | 12 raw measures: [3 in system#1, 3 in system#2, 3 in system#3, 3 in system#4]
+2019-09-14 20:06:28,062 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]       StepMonitoring.java:93   | CHORDS
+2019-09-14 20:06:28,070 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]       StepMonitoring.java:93   | CURVES
+2019-09-14 20:06:28,912 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]         SlursBuilder.java:156  | Slurs: 14
+2019-09-14 20:06:28,918 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]      SegmentsBuilder.java:110  | Segments: 16
+2019-09-14 20:06:28,920 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]       StepMonitoring.java:93   | SYMBOLS
+2019-09-14 20:06:29,043 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]       SymbolsBuilder.java:331  | Symbol parts shrunk from 11 to 7
+2019-09-14 20:06:29,146 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]       SymbolsBuilder.java:331  | Symbol parts shrunk from 15 to 7
+2019-09-14 20:06:29,201 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]       StepMonitoring.java:93   | LINKS
+2019-09-14 20:06:29,225 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]       StepMonitoring.java:93   | RHYTHMS
+2019-09-14 20:06:29,247 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S1 Measure{#1P1} Voice #1 too long 1/8
+2019-09-14 20:06:29,248 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S1 Measure{#1P1} Voice #5 too long 1/4
+2019-09-14 20:06:29,248 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S1 Measure{#1P1} Voice #6 too long 1/8
+2019-09-14 20:06:29,248 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]           StackTuner.java:88   | S1 MeasureStack#1 no correct rhythm
+2019-09-14 20:06:29,250 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S1 Measure{#2P1} Voice #5 too long 1/4
+2019-09-14 20:06:29,251 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]           StackTuner.java:88   | S1 MeasureStack#2 no correct rhythm
+2019-09-14 20:06:29,253 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]         SlotsBuilder.java:371  | S1 MeasureStack#3 Slot{#13 xOffset=600 timeOffset=11/8 incomings=[#2375] SUSPICIOUS}
+2019-09-14 20:06:29,255 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S1 Measure{#3P1} Voice #1 too long 1/4
+2019-09-14 20:06:29,255 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S1 Measure{#3P1} Voice #5 too long 1/8
+2019-09-14 20:06:29,256 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]           StackTuner.java:88   | S1 MeasureStack#3 no correct rhythm
+2019-09-14 20:06:29,258 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]         SlotsBuilder.java:371  | S2 MeasureStack#4 Slot{#13 xOffset=760 timeOffset=11/8 incomings=[#2423] SUSPICIOUS}
+2019-09-14 20:06:29,258 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S2 Measure{#4P1} Voice #1 too long 1/4
+2019-09-14 20:06:29,258 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S2 Measure{#4P1} Voice #5 too long 1/8
+2019-09-14 20:06:29,258 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]           StackTuner.java:88   | S2 MeasureStack#4 no correct rhythm
+2019-09-14 20:06:29,261 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]         SlotsBuilder.java:371  | S2 MeasureStack#5 Slot{#13 xOffset=563 timeOffset=11/8 incomings=[#2435] SUSPICIOUS}
+2019-09-14 20:06:29,261 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S2 Measure{#5P1} Voice #1 too long 1/4
+2019-09-14 20:06:29,261 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S2 Measure{#5P1} Voice #5 too long 1/8
+2019-09-14 20:06:29,262 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]           StackTuner.java:88   | S2 MeasureStack#5 no correct rhythm
+2019-09-14 20:06:29,264 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]         SlotsBuilder.java:371  | S2 MeasureStack#6 Slot{#13 xOffset=622 timeOffset=11/8 incomings=[#2448] SUSPICIOUS}
+2019-09-14 20:06:29,264 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S2 Measure{#6P1} Voice #1 too long 1/4
+2019-09-14 20:06:29,264 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S2 Measure{#6P1} Voice #2 too long 1/8
+2019-09-14 20:06:29,264 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S2 Measure{#6P1} Voice #5 too long 1/8
+2019-09-14 20:06:29,265 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]           StackTuner.java:88   | S2 MeasureStack#6 no correct rhythm
+2019-09-14 20:06:29,267 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]         SlotsBuilder.java:371  | S3 MeasureStack#7 Slot{#13 xOffset=770 timeOffset=11/8 incomings=[#2472] SUSPICIOUS}
+2019-09-14 20:06:29,267 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S3 Measure{#7P1} Voice #1 too long 1/4
+2019-09-14 20:06:29,267 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S3 Measure{#7P1} Voice #5 too long 1/8
+2019-09-14 20:06:29,267 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]           StackTuner.java:88   | S3 MeasureStack#7 no correct rhythm
+2019-09-14 20:06:29,268 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]         SlotsBuilder.java:371  | S3 MeasureStack#8 Slot{#13 xOffset=624 timeOffset=11/8 incomings=[#2485] SUSPICIOUS}
+2019-09-14 20:06:29,269 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S3 Measure{#8P1} Voice #1 too long 1/4
+2019-09-14 20:06:29,269 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S3 Measure{#8P1} Voice #2 too long 1/8
+2019-09-14 20:06:29,269 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S3 Measure{#8P1} Voice #5 too long 1/8
+2019-09-14 20:06:29,269 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]           StackTuner.java:88   | S3 MeasureStack#8 no correct rhythm
+2019-09-14 20:06:29,271 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]         SlotsBuilder.java:371  | S3 MeasureStack#9 Slot{#8 xOffset=326 timeOffset=1 incomings=[#2504] SUSPICIOUS}
+2019-09-14 20:06:29,271 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S3 Measure{#9P1} Voice #1 too long 7/8
+2019-09-14 20:06:29,271 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S3 Measure{#9P1} Voice #6 too long 1/4
+2019-09-14 20:06:29,271 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]           StackTuner.java:88   | S3 MeasureStack#9 no correct rhythm
+2019-09-14 20:06:29,272 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]         SlotsBuilder.java:371  | S4 MeasureStack#10 Slot{#8 xOffset=650 timeOffset=1 incomings=[#2517] SUSPICIOUS}
+2019-09-14 20:06:29,273 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S4 Measure{#10P1} Voice #6 too long 1/2
+2019-09-14 20:06:29,273 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]           StackTuner.java:88   | S4 MeasureStack#10 no correct rhythm
+2019-09-14 20:06:29,274 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]       StepMonitoring.java:93   | PAGE
+2019-09-14 20:06:29,274 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S1 Measure{#1P1} Voice #1 too long 1/8
+2019-09-14 20:06:29,274 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S1 Measure{#1P1} Voice #5 too long 1/4
+2019-09-14 20:06:29,274 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S1 Measure{#1P1} Voice #6 too long 1/8
+2019-09-14 20:06:29,275 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S1 Measure{#2P1} Voice #5 too long 1/4
+2019-09-14 20:06:29,275 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S1 Measure{#3P1} Voice #1 too long 1/4
+2019-09-14 20:06:29,275 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S1 Measure{#3P1} Voice #5 too long 1/8
+2019-09-14 20:06:29,278 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S2 Measure{#4P1} Voice #1 too long 1/4
+2019-09-14 20:06:29,278 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S2 Measure{#4P1} Voice #5 too long 1/8
+2019-09-14 20:06:29,278 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S2 Measure{#5P1} Voice #1 too long 1/4
+2019-09-14 20:06:29,278 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S2 Measure{#5P1} Voice #5 too long 1/8
+2019-09-14 20:06:29,278 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S2 Measure{#6P1} Voice #1 too long 1/4
+2019-09-14 20:06:29,278 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S2 Measure{#6P1} Voice #2 too long 1/8
+2019-09-14 20:06:29,278 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S2 Measure{#6P1} Voice #5 too long 1/8
+2019-09-14 20:06:29,278 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S3 Measure{#7P1} Voice #1 too long 1/4
+2019-09-14 20:06:29,279 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S3 Measure{#7P1} Voice #5 too long 1/8
+2019-09-14 20:06:29,279 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S3 Measure{#8P1} Voice #1 too long 1/4
+2019-09-14 20:06:29,279 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S3 Measure{#8P1} Voice #2 too long 1/8
+2019-09-14 20:06:29,279 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S3 Measure{#8P1} Voice #5 too long 1/8
+2019-09-14 20:06:29,279 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S3 Measure{#9P1} Voice #1 too long 7/8
+2019-09-14 20:06:29,279 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S3 Measure{#9P1} Voice #6 too long 1/4
+2019-09-14 20:06:29,279 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Voice.java:234  | S4 Measure{#10P1} Voice #6 too long 1/2
+2019-09-14 20:06:29,280 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]            SheetStub.java:974  | Stub#5 storing
+2019-09-14 20:06:29,282 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                 Book.java:1660 | Stored /book.xml
+2019-09-14 20:06:29,451 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]              Picture.java:784  | Stored /sheet#5/BINARY.xml
+2019-09-14 20:06:30,171 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]                Sheet.java:1246 | Stored /sheet#5/sheet#5.xml
+2019-09-14 20:06:30,175 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5]            SheetStub.java:979  | Sheet{Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550#5} disposed
+2019-09-14 20:06:30,840 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550]            SheetStub.java:632  | Loaded /sheet#1/sheet#1.xml
+2019-09-14 20:06:31,254 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550]            SheetStub.java:632  | Loaded /sheet#2/sheet#2.xml
+2019-09-14 20:06:31,537 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550]            SheetStub.java:632  | Loaded /sheet#3/sheet#3.xml
+2019-09-14 20:06:31,811 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550]            SheetStub.java:632  | Loaded /sheet#4/sheet#4.xml
+2019-09-14 20:06:32,062 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550]            SheetStub.java:632  | Loaded /sheet#5/sheet#5.xml
+2019-09-14 20:06:32,065 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550]                 Book.java:1451 | Scores built: 1
+2019-09-14 20:06:32,870 ERROR [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550]             MusicXML.java:276  | Unsupported dynamics shape:DYNAMICS_SF
+2019-09-14 20:06:32,999 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550]        ScoreExporter.java:88   | Score Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550 exported to /var/www/html/mxl/original/Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550/Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550.mxl
+2019-09-14 20:06:33,286 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550]                 Book.java:1660 | Stored /book.xml
+2019-09-14 20:06:33,287 INFO [Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550]                 Book.java:1613 | Book stored as /var/www/html/mxl/original/Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550/Eb$F#$1568491526_[Free-scores.com]_beethoven-ludwig-van-moonlight-sonata-1st-mov-550.omr

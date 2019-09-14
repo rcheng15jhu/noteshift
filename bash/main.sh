@@ -1,3 +1,5 @@
+#!/bin/bash
+
 inotifywait -m /var/www/html/uploads/ -e create -e moved_to |
     
     while read path action file; do
@@ -5,6 +7,7 @@ inotifywait -m /var/www/html/uploads/ -e create -e moved_to |
         echo "The file '$file' appeared in directory '$path' via '$action'"
 
 	./omr.sh $file
+	./musescore.sh $file
 	
     done
 
