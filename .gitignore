@@ -1,0 +1,13 @@
+#Files in uploads folder
+uploads/
+
+# Ignore Mac system files
+.DS_store
+
+#ignore files respectiove to users
+*.pdf
+*.jpg
+*.jpeg
+
+#ignore files being editted
+*~

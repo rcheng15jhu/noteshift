@@ -1,0 +1,14 @@
+Front-End:
+Append notes to uploaded file.
+Create loading screen.
+Display transposed pdf.
+Append flag to denote filetype.
+.gitignore pdf files.
+
+Back-End:
+Everything.
+Just bash scripting.
+Figure out how to knowh when transcription is done.
+
+Other:
+Finish pitch deck.

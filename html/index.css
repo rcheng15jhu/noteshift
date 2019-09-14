@@ -1,0 +1,54 @@
+/*
+Styling for index
+NoteShift 1.0
+*/
+
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'PT Serif', serif;
+}  
+
+h1 {
+    font-size: 50px;
+}
+
+.selectionText {
+  font-size: 20px;
+
+}
+
+body {
+  background-image:url(background.png);
+  background-repeat:no-repeat;
+
+  background-size:cover;
+
+}
+
+.myselect {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  max-width: 45px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  line-height: 1.5;
+  transition: all .2s ease-in-out;
+  background-color: rgb(95, 124, 219);
+  color: rgb(245, 236, 236);
+  font-size: 18px;
+  border: none;
+}
+  
+/*IE*/
+.myselect::-ms-expand {
+  display: none;
+}
+  
+.myselect:focus {
+  outline: 0;
+  border-color: #9cc6f3;
+  box-shadow: 0 0 0 3px rgba(0, 121, 250, .3);
+}
