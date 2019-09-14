@@ -49,9 +49,9 @@ NoteShift 1.0
     
     function getval(sel)
     {
-        document.cookie=this.id + "=" this.value + "; expires=" + (date.getTime() + (days * 24 * 60 * 60 * 1000)).toGMTString(); + " path=/";"
+        document.cookie=sel.id + "=" sel.value + "; expires=" + (date.getTime() + (days * 24 * 60 * 60 * 1000)).toGMTString(); + " path=/";"
         
-<!--        createCookie(this.id, this.value, "10");-->
+<!--        createCookie(sel.id, sel.value, "10");-->
     }
     </script>
 
