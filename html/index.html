@@ -15,25 +15,43 @@ NoteShift 1.0
     <title>noteshift</title>
 
     <script>
-        const select = document.querySelector(".myselect");
+        const select = document.getElementById("source");
+        const select2 = document.getElementById("destination");
         const options = document.querySelectorAll(".myselect option");
  
         // 1
-        select.addEventListener("change", function() {
-            const url = this.options[this.selectedIndex].dataset.url;
-            if(url) {
-            location.href = url;
-            }
-        });
+<!--        select.addEventListener("change", function() {-->
+<!--            const key = this.options[this.selectedIndex].value;-->
+<!--        });-->
+<!--        select2.addEventListener("change", function() {-->
+<!--            const key2 = this.options[this.selectedIndex].value;-->
+<!--        });-->
+
+<!--        $(document).ready(function () {-->
+<!--            createCookie("keySource", key, "10");-->
+<!--            createCookie("keyDestination", key2, "10");-->
+<!--        });-->
+
+
         
-        // 2
-        for(const option of options) {
-            const url = option.dataset.url;
-            if(location.href.includes(url)) {
-                option.setAttribute("selected", "");
-                break;
+        function setcookie(name, value, days)
+        {
+            if (days)
+            {
+                var date = new Date();
+                date.setTime(date.getTime()+days*24*60*60*1000);
+                var expires = "; expires=" + date.toGMTString();
             }
+            else
+            var expires = "";
+            document.cookie = name+"=" + value+expires + ";path=/";
         }
+    
+    function getval(sel)
+    {
+<!--        document.cookie=sel.id + "=" sel.value + "; expires=" + (date.getTime() + (days * 24 * 60 * 60 * 1000)).toGMTString(); + " path=/";"-->
+        setcookie(sel.id, sel.value, 1)
+    }
     </script>
 
 </head>
@@ -42,22 +60,22 @@ NoteShift 1.0
     <p style = "position:relative; left:39.5%; top:80px;"><i>Developed in HopHacks Fall 2019</i></p>
     <img src="logo.png" alt="Logo" style="width:40%; height:40%; position:relative; left:31%; top:100px;">
     <p class = "selectionText" style = "position:relative; left:35%; top:120px;">Transpose from an instrument in: 
-        <select class="myselect">
-            <option data-url="Eb">Eb</option>
-            <option data-url="C">C</option>
-            <option data-url="F#">F#</option>
-            <option data-url="Bb">Bb</option>
-            <option data-url="F">F</option>
+        <select class="myselect" id="source" onchange="getval(this);">
+            <option value="C">C</option>
+            <option value="Eb">Eb</option>
+            <option value="F#">F#</option>
+            <option value="Bb">Bb</option>
+            <option value="F">F</option>
         </select>
     </p>
     <p class = "selectionText" style = "position:relative; left:40%; top:110px;">
         to an instrument in: 
-        <select class="myselect">
-            <option data-url="Eb">Eb</option>
-            <option data-url="C">C</option>
-            <option data-url="F#">F#</option>
-            <option data-url="Bb">Bb</option>
-            <option data-url="F">F</option>
+        <select class="myselect" id="destination" onchange="getval(this);">
+            <option value="C">C</option>
+            <option value="Eb">Eb</option>
+            <option value="F#">F#</option>
+            <option value="Bb">Bb</option>
+            <option value="F">F</option>
             </select>
     </p>
     

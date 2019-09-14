@@ -8,7 +8,8 @@ NoteShift 1.0
 //if (isset($_POST['submit'])){
     print_r($_FILES);
     $target_dir = "uploads/";
-    $target_file = $target_dir . time() . "_" . basename($_FILES["submittedFile"]["name"]);
+    print_r($_COOKIE);
+    $target_file = $target_dir .  $_COOKIE["source"] . "$" . $_COOKIE["destination"] . "$" . time() . "_" . basename($_FILES["submittedFile"]["name"]);
     print_r($target_file);
     print_r($_FILES["submittedFile"]["tmp_name"]);
     $uploadOk = 1;
@@ -37,10 +38,10 @@ NoteShift 1.0
         } else {
             if (move_uploaded_file($_FILES["submittedFile"]["tmp_name"], $target_file)) {
                 echo "The file ". basename( $_FILES["submittedFile"]["name"]). " has been uploaded.";
-                header('Location: loading.html'); 
+                header('Location: index.html');
 
             } else {
-                echo "Sorry, there was an error uploading your file.";
+                echo "\n\nSorry, there was an error uploading your file.";
             }
         }
 //        if (empty($fileError)===true) {
