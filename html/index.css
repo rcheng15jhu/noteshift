@@ -4,26 +4,40 @@ NoteShift 1.0
 */
 
 html {
-    max-width: 100%;
-    overflow-x: hidden;
-    font-family: 'PT Serif', serif;
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(54, 47, 47);
 }  
 
+input[type=submit] {
+  background-color: rgb(95, 124, 219);
+  border: none;
+  color: rgb(231, 227, 227);
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+input[type=submit]:hover{
+  box-shadow: 0 20px 20px 0 rgba(0,0,0,0.08);
+  transition: box-shadow 0.2s ease-in-out;
+}
+
 h1 {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 .selectionText {
   font-size: 20px;
-
 }
 
 body {
   background-image:url(background.png);
   background-repeat:no-repeat;
-
   background-size:cover;
-
 }
 
 .myselect {
@@ -41,7 +55,7 @@ body {
   font-size: 18px;
   border: none;
 }
-  
+
 /*IE*/
 .myselect::-ms-expand {
   display: none;
