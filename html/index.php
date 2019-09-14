@@ -22,6 +22,7 @@
             //$fileDestination = 'uploads/'.$fileNameNew;
             //move_uploaded_file($fileTmpName, $fileDestination);
             header("Location: learning.html?uploadsuccess");
+            echo "Success";
         }
         else{
             echo "There was an error uploading your file!";
