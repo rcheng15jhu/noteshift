@@ -1,6 +1,6 @@
 <?php
 //if (isset($_POST['submit'])){
-    
+    print_r($_FILES);
     $target_dir = "uploads/";
     $target_file = $target_dir . basename($_FILES["submittedFile"]["name"]);
     $uploadOk = 1;
@@ -20,10 +20,10 @@
         // Allow certain file formats
     if (in_array($imageFileType, $allowed) === false){
         echo "Sorry, only JPG, JPEG, & PDF files are allowed.";
-        uploadOk = 0;
+        $uploadOk = 0;
     }
         // Check if $uploadOk is set to 0 by an error
-        if ($uploadOk == 0) {
+        if ($uploadOk === 0) {
             echo "Sorry, your file was not uploaded.";
             // if everything is ok, try to upload file
         } else {
