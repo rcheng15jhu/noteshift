@@ -1,0 +1,15 @@
+#Files
+uploads/
+pdf/
+xml/
+
+# Ignore Mac system files
+.DS_Store
+
+#ignore files respectiove to users
+*.pdf
+*.jpg
+*.jpeg
+
+#ignore files being editted
+*~
