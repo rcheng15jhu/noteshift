@@ -1,3 +1,9 @@
+<!--
+File handling and transfer for
+NoteShift 1.0
+-->
+
+
 <?php
 //if (isset($_POST['submit'])){
     print_r($_FILES);
@@ -31,6 +37,8 @@
         } else {
             if (move_uploaded_file($_FILES["submittedFile"]["tmp_name"], $target_file)) {
                 echo "The file ". basename( $_FILES["submittedFile"]["name"]). " has been uploaded.";
+                header('Location: index.html'); 
+
             } else {
                 echo "Sorry, there was an error uploading your file.";
             }
