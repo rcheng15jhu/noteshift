@@ -1,5 +1,6 @@
-**This is for a music transposing software developed in Hophacks Fall 2019**
-The active website can be accessed through 
+# This is a music transposing software developed in Hophacks Fall 2019
+The active website can be accessed through http://noteshift.tech/
+
 Current noteshift 1.0 features include:
 - Document scanning and reformatting
 - Reading .jpg and .pdf music data
