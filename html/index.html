@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
     <meta charset="utf-8">
-    <title>Auto Transposer</title>
+    <title>Noteshift</title>
 
     <script>
         const select = document.querySelector(".myselect");
@@ -32,8 +32,8 @@
 
 </head>
 
-<body background="background.png">
-    <h1 style = "position:relative; left:40.5%; top:100px;">Note Shift</h1>
+<body>
+    <h1 style = "position:relative; left:41.1%; top:100px;">Noteshift</h1>
     <p style = "position:relative; left:41.2%; top:80px;">Developed in HopHacks 2019</p>
     <p class = "selectionText" style = "position:relative; left:29%; top:100px;">Transpose from the key of: 
         <select class="myselect">
@@ -53,10 +53,9 @@
             </select>
     </p>
     
-    <form action = "testing.php" method = "POST" enctype = "multipart/form-data" style = "position:relative; left:35%; top:150px;">
-        <input type = "file" name = "submittedFile">
-        <!-- <button type = "submit" name = "submit">UPLOAD</button> -->
-        <input type = "submit" name = "UPLOAD"></input> 
+    <form action = "index.php" method = "POST" enctype = "multipart/form-data" style = "position:relative; left:35%; top:150px;">
+        <input type = "file" name = "file">
+        <button type = "submit" name = "submit">UPLOAD</button>
     </form>
 
 </body>
