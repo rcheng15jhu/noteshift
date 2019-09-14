@@ -1,7 +1,7 @@
 <?php
 //if (isset($_POST['submit'])){
     print_r($_FILES);
-    $target_dir = "~/uploads/";
+    $target_dir = "uploads/";
     $target_file = $target_dir . time() . "_" . basename($_FILES["submittedFile"]["name"]);
     print_r($target_file);
     print_r($_FILES["submittedFile"]["tmp_name"]);
