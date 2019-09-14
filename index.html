@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="learning.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Auto Transposer</title>
+
+    <script>
+        const select = document.querySelector(".myselect");
+        const options = document.querySelectorAll(".myselect option");
+ 
+        // 1
+        select.addEventListener("change", function() {
+            const url = this.options[this.selectedIndex].dataset.url;
+            if(url) {
+                location.href = url;
+            }
+        });
+        
+        // 2
+        for(const option of options) {
+            const url = option.dataset.url;
+            if(location.href.includes(url)) {
+                option.setAttribute("selected", "");
+                break;
+            }
+        }
+    </script>
+
+</head>
+
+<body background="background.png">
+    <h1 style = "position:relative; left:40.5%; top:100px;">Note Shift</h1>
+    <p style = "position:relative; left:41.2%; top:80px;">Developed in HopHacks 2019</p>
+    <p class = "selectionText" style = "position:relative; left:29%; top:100px;">Transpose from the key of: 
+        <select class="myselect">
+            <option data-url="C">C</option>
+            <option data-url="Eb">Eb</option>
+            <option data-url="F#">F#</option>
+            <option data-url="Bb">Bb</option>
+            <option data-url="F">F</option>
+        </select>
+        to the key of: 
+        <select class="myselect">
+            <option data-url="C">C</option>
+            <option data-url="Eb">Eb</option>
+            <option data-url="F#">F#</option>
+            <option data-url="Bb">Bb</option>
+            <option data-url="F">F</option>
+            </select>
+    </p>
+    <?php include('learning.php'); ?>
+    
+    <form action = "upload.php" method = "POST" enctype = "multipart/form-data" style = "position:relative; left:35%; top:150px;">
+        <input type = "file" name = "">
+        <button type = "submit" name = "submit">UPLOAD</button>
+    </form>
+
+</body>
+
+</html>
