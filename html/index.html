@@ -16,7 +16,7 @@
         select.addEventListener("change", function() {
             const url = this.options[this.selectedIndex].dataset.url;
             if(url) {
-                location.href = url;
+            location.href = url;
             }
         });
         
@@ -53,9 +53,10 @@
             </select>
     </p>
     
-    <form action = "index.php" method = "POST" enctype = "multipart/form-data" style = "position:relative; left:35%; top:150px;">
-        <input type = "file" name = "file">
-        <button type = "submit" name = "submit">UPLOAD</button>
+    <form action = "index.php" method = "post" enctype = "multipart/form-data" style = "position:relative; left:35%; top:150px;">
+        <input type = "file" method = "POST" name = "submittedFile">
+        <!-- <button type = "submit" name = "submit">UPLOAD</button> -->
+        <input type = "submit" name = "UPLOAD"></input> 
     </form>
 
 </body>
