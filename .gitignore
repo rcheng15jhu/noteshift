@@ -1,5 +1,7 @@
-#Files in uploads folder
+#Files
 uploads/
+pdf/
+xml/
 
 # Ignore Mac system files
 .DS_Store
