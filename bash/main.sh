@@ -7,6 +7,7 @@ inotifywait -m /var/www/html/uploads/ -e create -e moved_to |
         echo "The file '$file' appeared in directory '$path' via '$action'"
 
 	./omr.sh $file
+	./transpose.sh $file
 	./musescore.sh $file
 	
     done
