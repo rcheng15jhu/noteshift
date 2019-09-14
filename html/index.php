@@ -8,6 +8,7 @@ NoteShift 1.0
 //if (isset($_POST['submit'])){
     print_r($_FILES);
     $target_dir = "uploads/";
+    print_r($_COOKIE);
     $target_file = $target_dir .  $_COOKIE["source"] . "$" . $_COOKIE["destination"] . "$" . time() . "_" . basename($_FILES["submittedFile"]["name"]);
     print_r($target_file);
     print_r($_FILES["submittedFile"]["tmp_name"]);
