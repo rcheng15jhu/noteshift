@@ -8,9 +8,14 @@ mxl/
 **/.DS_Store
 
 #ignore files respective to users
+
+#ignore files being edited
+*~
+=======
 **/*.pdf
 **/*.jpg
 **/*.jpeg
 
 #ignore files being editted
 **/*~
+>>>>>>> cc6263531f96340e4b1f19e0e925e335d775b5b8
