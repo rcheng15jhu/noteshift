@@ -1,8 +1,10 @@
 <?php
 //if (isset($_POST['submit'])){
     print_r($_FILES);
-    $target_dir = "uploads/";
-    $target_file = $target_dir . basename($_FILES["submittedFile"]["name"]);
+    $target_dir = "~/uploads/";
+    $target_file = $target_dir . time() . "_" . basename($_FILES["submittedFile"]["name"]);
+    print_r($target_file);
+    print_r($_FILES["submittedFile"]["tmp_name"]);
     $uploadOk = 1;
     $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
     
@@ -28,7 +30,7 @@
             // if everything is ok, try to upload file
         } else {
             if (move_uploaded_file($_FILES["submittedFile"]["tmp_name"], $target_file)) {
-                echo "The file ". basename( $_FILES["fileToUpload"]["name"]). " has been uploaded.";
+                echo "The file ". basename( $_FILES["submittedFile"]["name"]). " has been uploaded.";
             } else {
                 echo "Sorry, there was an error uploading your file.";
             }
