@@ -1,15 +1,15 @@
 #Files
 uploads/
 pdf/
-xml/
+mxl/
 
 # Ignore Mac system files
 .DS_Store
 
-#ignore files respectiove to users
+#ignore files respective to users
 *.pdf
 *.jpg
 *.jpeg
 
-#ignore files being editted
+#ignore files being edited
 *~
