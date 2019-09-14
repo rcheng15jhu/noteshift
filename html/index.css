@@ -10,7 +10,7 @@
     }
   
   .selectionText {
-    font-size: 23px;
+    font-size: 20px;
 
   }
 
@@ -32,7 +32,7 @@
     border-radius: 4px;
     line-height: 1.5;
     transition: all .2s ease-in-out;
-    background-color: rgb(90, 117, 206);
+    background-color: rgb(95, 124, 219);
     color: rgb(245, 236, 236);
     font-size: 16px;
     border: none;
@@ -45,6 +45,6 @@
    
   .myselect:focus {
     outline: 0;
-    border-color: #7bbaff;
+    border-color: #9cc6f3;
     box-shadow: 0 0 0 3px rgba(0, 121, 250, .3);
   }
