@@ -1,0 +1,10 @@
+/*
+Styling for view
+NoteShift 1.0
+*/
+
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
