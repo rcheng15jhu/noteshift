@@ -5,11 +5,12 @@ xml/
 
 # Ignore Mac system files
 .DS_Store
+**/.DS_Store
 
-#ignore files respectiove to users
-*.pdf
-*.jpg
-*.jpeg
+#ignore files respective to users
+**/*.pdf
+**/*.jpg
+**/*.jpeg
 
 #ignore files being editted
-*~
+**/*~
