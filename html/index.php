@@ -38,7 +38,7 @@ NoteShift 1.0
         } else {
             if (move_uploaded_file($_FILES["submittedFile"]["tmp_name"], $target_file)) {
                 echo "The file ". basename( $_FILES["submittedFile"]["name"]). " has been uploaded.";
-                header('Location: index.html');
+                header('Location: loading.html');
 
             } else {
                 echo "\n\nSorry, there was an error uploading your file.";
