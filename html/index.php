@@ -1,32 +1,31 @@
 <?php
-if (isset($_POST['submit'])){
-    $file = $_FILES['file'];
-    print_r($file);
-    $fileName = $_FILES['file']['name'];
-    $fileTmpName = $_FILES['file']['tmp_name'];
-    $fileSize = $_FILES['file']['size'];
-    $fileError = $_FILES['file']['error'];
-    $fileType = $_FILES['file']['type'];
+//if (isset($_POST['submit'])){
+    if (isset($_FILES['submittedFile'])) {
+    $fileName = $_FILES['submittedFile']['name'];
+    $fileTmpName = $_FILES['submittedFile']['tmp_name'];
+    $fileSize = $_FILES['submittedFile']['size'];
+    $fileError = $_FILES['submittedFile']['error'];
+    $fileType = $_FILES['submittedFile']['type'];
 
-    $fileExt = explode('.', $fileName);
-    $fileActualExt = strtolower(end($fileExt));
+    $fileExt = strtolower(end(explode('.', $fileName)));
 
     $allowed = array('pdf');
 
-    if (in_array($fileActualExt, $allowed)){
-        if ($fileError === 0){
-            $fileNameNew = uniqid('', true).".".$fileActualExt;
-            $fileDestination = 'Uploads/'.$fileNameNew;
+    if (in_array($fileExt, $allowed) === false){
+        $fileError[]="Extension not allowed, please choose a PDF file.";
+        print_r($fileError);
+    }
+        
+        if (empty($fileError)===true) {
+            move_uploaded_file($fileTmpName, "uploads/".$fileName)
+            //$fileNameNew = uniqid('', true).".".$fileExt;
+            //$fileDestination = 'uploads/'.$fileNameNew;
             //move_uploaded_file($fileTmpName, $fileDestination);
             header("Location: learning.html?uploadsuccess");
         }
         else{
             echo "There was an error uploading your file!";
         }
-    }
-    else {
-        echo "You cannot upload files of this type!";
-    }
     
 }
 ?>
