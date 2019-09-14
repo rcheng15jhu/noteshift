@@ -8,4 +8,6 @@ unzip -o $y.mxl -d /var/www/html/mxl/original/
 rm -rf /var/www/html/mxl/original/META-INF/
 
 cd /var/www/java/
-java TransposeComputation
+java TransposeComputation $1
+
+printf "transpose done"
