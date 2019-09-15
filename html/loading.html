@@ -33,7 +33,8 @@ NoteShift 1.0
     
 </body>
 <script>
-    window.setInterval(UrlExist, 3000,'html/123.txt');
-    window.setInterval(alert("Hello!"), 3000);;
+    window.setInterval(function () {
+                       UrlExists('html/123.txt');}, 3000);
+                       window.setInterval(function() {alert("Hello!");}, 3000);
 </script>
 </html>
