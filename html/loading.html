@@ -13,16 +13,16 @@ NoteShift 1.0
     <script>
         function UrlExists(url)
         {
-            document.write(Date.now());
+            document.append(Date.now());
         var http = new XMLHttpRequest();
         http.open('HEAD', url, false);
         http.send();
         document.write(html.status);
-        if (http.status==200) {
+        if (http.status!=404 || http.status==200) {
             document.write("\n Document found");
             document.location.href="view.html";
         } else {
-            document.write("\n Not found");
+            document.append("\n Not found");
         }
         }
     
