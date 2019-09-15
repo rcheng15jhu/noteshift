@@ -13,12 +13,16 @@ NoteShift 1.0
     <script>
         function UrlExists(url)
         {
-            document.write(Date.now());
+        console.log(Date.now());
         var http = new XMLHttpRequest();
         http.open('HEAD', url, false);
         http.send();
-        if (http.status!=404) {
+        console.log(http.status);
+        if (http.status!=404 || http.status==200) {
+            document.write("\n Document found");
             document.location.href="view.html";
+        } else {
+            console.log("\n Not found");
         }
         }
     
@@ -34,7 +38,6 @@ NoteShift 1.0
 </body>
 <script>
     window.setInterval(function () {
-                       UrlExists('html/123.txt');}, 3000);
-                       window.setInterval(function() {alert("Hello!");}, 3000);
+                       UrlExists('123.txt');}, 3000);
 </script>
 </html>
