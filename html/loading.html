@@ -13,13 +13,12 @@ NoteShift 1.0
     <script>
         function UrlExists(url)
         {
-        console.log(Date.now());
         var http = new XMLHttpRequest();
         http.open('HEAD', url, false);
         http.send();
         console.log(http.status);
         if (http.status!=404 || http.status==200) {
-            document.write("\n Document found");
+            console.log("\n Document found");
             document.location.href="view.html";
         } else {
             console.log("\n Not found");
