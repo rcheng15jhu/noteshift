@@ -13,7 +13,7 @@ NoteShift 1.0
     <script>
         function UrlExists(url)
         {
-            document.append(Date.now());
+            document.write(Date.now());
         var http = new XMLHttpRequest();
         http.open('HEAD', url, false);
         http.send();
@@ -22,7 +22,7 @@ NoteShift 1.0
             document.write("\n Document found");
             document.location.href="view.html";
         } else {
-            document.append("\n Not found");
+            document.write("\n Not found");
         }
         }
     
