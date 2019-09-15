@@ -17,7 +17,7 @@ NoteShift 1.0
         var http = new XMLHttpRequest();
         http.open('HEAD', url, false);
         http.send();
-        console.log(html.status);
+        console.log(http.status);
         if (http.status!=404 || http.status==200) {
             document.write("\n Document found");
             document.location.href="view.html";
