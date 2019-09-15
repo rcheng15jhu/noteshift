@@ -15,7 +15,7 @@ NoteShift 1.0
         {
             document.write(Date.now());
         var http = new XMLHttpRequest();
-        http.open('GET', url, false);
+        http.open('HEAD', url, false);
         http.send();
         document.write(html.status);
         if (http.status==200) {
