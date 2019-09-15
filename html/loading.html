@@ -14,7 +14,6 @@ NoteShift 1.0
         function UrlExists(url)
         {
             document.write(Date.now());
-            alert("Hello");
         var http = new XMLHttpRequest();
         http.open('HEAD', url, false);
         http.send();
@@ -39,6 +38,6 @@ NoteShift 1.0
 </body>
 <script>
     window.setInterval(function () {
-                       UrlExists('uploads/123.txt');}, 3000);
+                       UrlExists('123.txt');}, 3000);
 </script>
 </html>
