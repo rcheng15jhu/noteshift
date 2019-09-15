@@ -18,7 +18,10 @@ NoteShift 1.0
         http.open('HEAD', url, false);
         http.send();
         if (http.status!=404) {
+            document.write("\n Document found");
             document.location.href="view.html";
+        } else {
+            document.write("\n Not found");
         }
         }
     
@@ -35,6 +38,5 @@ NoteShift 1.0
 <script>
     window.setInterval(function () {
                        UrlExists('html/123.txt');}, 3000);
-                       window.setInterval(function() {alert("Hello!");}, 3000);
 </script>
 </html>
