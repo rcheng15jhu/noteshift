@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export QT_QPA_PLATFORM=offscreen
+
 inotifywait -m /var/www/html/uploads/ -e create -e moved_to |
     
     while read path action file; do
