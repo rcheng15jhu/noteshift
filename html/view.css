@@ -4,7 +4,24 @@ NoteShift 1.0
 */
 
 html {
-    /*max-width: 100%;*/
-    /*overflow-x: hidden;*/
+    max-width: 100%;
+    overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
 }
+
+button {
+    background-color: rgb(62, 79, 238);
+    border: none;
+    color: rgb(231, 227, 227);
+    padding: 14px 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+button:hover{
+    box-shadow: 0 20px 20px 0 rgba(0,0,0,0.08);
+    transition: box-shadow 0.2s ease-in-out;
+  }
