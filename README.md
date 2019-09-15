@@ -2,7 +2,7 @@
 The active website can be accessed through http://noteshift.tech/
 
 ## Samples
-(Twinkle Twinkle Little Star)[https://drive.google.com/open?id=1E0Dz67UuoqDE1XH07VER3M1uPEjiP5HO]
+[Twinkle Twinkle Little Star](https://drive.google.com/open?id=1E0Dz67UuoqDE1XH07VER3M1uPEjiP5HO)
 
 ## noteshift 1.0 features include:
 - Document scanning and reformatting
