@@ -1,4 +1,4 @@
-# This is music transposing software developed in Hophacks Fall 2019
+# Music transposing software developed in Hophacks Fall 2019
 The active website can be accessed through http://noteshift.tech/
 
 Current noteshift 1.0 features include:
