@@ -1,5 +1,6 @@
-# Music transposing software developed in Hophacks Fall 2019
-The active website can be accessed through http://noteshift.tech/
+# Sheet music transposing service, powered by ML and computer vision
+
+Buit for HopHacks Fall 2019 at the Johns Hopkins University
 
 ## Samples
 [Twinkle Twinkle Little Star](https://drive.google.com/open?id=1E0Dz67UuoqDE1XH07VER3M1uPEjiP5HO)
