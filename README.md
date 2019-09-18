@@ -1,6 +1,6 @@
 # Sheet music transposing service, powered by ML and computer vision
 
-Buit for HopHacks Fall 2019 at the Johns Hopkins University
+Built for HopHacks Fall 2019 at the Johns Hopkins University
 
 ## Samples
 [Twinkle Twinkle Little Star](https://drive.google.com/open?id=1E0Dz67UuoqDE1XH07VER3M1uPEjiP5HO)
