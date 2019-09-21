@@ -104,7 +104,7 @@ public static void main(String[] args) {
 		
 		new_step = get_new_step(step, fifths_change);
 		
-		new_alter = get_new_alter(new_step, alter, key, fifths_change);
+		new_alter = get_new_alter(string_to_step(step), new_step, alter, key, fifths_change);
 		
 		String currPitch = "<pitch>"                                         + "\n"
 		             + "  <step>" + step_to_string(new_step) + "</step>" + "\n"
@@ -249,7 +249,7 @@ public static int get_new_step(String step, int fifths_change) {
 	// }
 }
 
-public static int get_new_alter(int step, int alter, int key, int fifths_change) {
+public static int get_new_alter(int step, int new_step, int alter, int key, int fifths_change) {
 	int[][] pieceOfShit = {{-1, -1, -1, -1, -1, -1, -1}//Cb -7
   						 , {-1, -1, -1, 0, -1, -1, -1} //Gb -6
 						 , {0, -1, -1, 0, -1, -1, -1}  //Db -5
@@ -277,7 +277,7 @@ public static int get_new_alter(int step, int alter, int key, int fifths_change)
 	    super_temp-=12;
 	while(super_temp<-7)
 	    super_temp+=12;
-	int new_alter = degree_alter + pieceOfShit[super_temp+7][step-1];
+	int new_alter = degree_alter + pieceOfShit[super_temp+7][new_step-1];
 	
 	return new_alter;
 }
@@ -308,8 +308,8 @@ public static void addKey(int key, PrintStream writer, int fifths_change) {
 	writer.println("        </key>");
 }
 
-public static String step_to_string(int new_step) {
-	switch (new_step) {
+public static String step_to_string(int step) {
+	switch (step) {
 		case 1:  return "C";
 		case 2:  return "D";
 		case 3:  return "E";
@@ -318,6 +318,19 @@ public static String step_to_string(int new_step) {
 		case 6:  return "A";
 		case 7:  return "B";
 		default: return "C";
+	}
+}
+
+public static int string_to_step(String step) {
+	switch (step.charAt(0)) {
+		case 'C':  return 1;
+		case 'D':  return 2;
+		case 'E':  return 3;
+		case 'F':  return 4;
+		case 'G':  return 5;
+		case 'A':  return 6;
+		case 'B':  return 7;
+		default:   return 1;
 	}
 }
 
