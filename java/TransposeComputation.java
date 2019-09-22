@@ -79,7 +79,10 @@ public static void main(String[] args) {
 			if (debug)
 				System.out.println(temp);
 			if(temp.length()<12)
-				break;
+				if(anotherReader.hasNext())
+					continue;
+				else
+					break;
 			if(temp.substring(11,12).equals("s"))
 				step = temp.substring(16,17);
 			if(temp.substring(11,12).equals("a"))
