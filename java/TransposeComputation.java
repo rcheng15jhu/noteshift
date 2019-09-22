@@ -45,7 +45,7 @@ public static void main(String[] args) {
 	
 	int indice;
 	if ((indice=temp.indexOf("fifths"))!=-1) {
-			key = Integer.parseInt(temp.substring(indice+7,indice+8));
+			key = Integer.parseInt(temp.substring(indice+7,(temp.charAt(indice+7)=='-') ? indice+9 : indice+8));
 	}
 	
 	if (debug) {
