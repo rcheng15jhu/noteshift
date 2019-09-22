@@ -225,31 +225,13 @@ public static int get_new_octave(String step, int alter, int fifths_change) {
 
 public static int get_new_step(String step, int fifths_change) {
 	int note = 0;
-	switch (step.charAt(0)) {
-	case 'C': note=1; break;
-	case 'D': note=2; break;
-	case 'E': note=3; break;
-	case 'F': note=4; break;
-	case 'G': note=5; break;
-	case 'A': note=6; break;
-	case 'B': note=7; break;
-	}
+	note = string_to_step(step);
 	
 	note = (note+4*fifths_change) % 7;
 	if (note<=0)
 		note +=7;
 	
 	return note;
-	// switch (note) {
-		// case 1:  return "C";
-		// case 2:  return "D";
-		// case 3:  return "E";
-		// case 4:  return "F";
-		// case 5:  return "G";
-		// case 6:  return "A";
-		// case 7:  return "B";
-		// default: return "C";
-	// }
 }
 
 public static int get_new_alter(int step, int new_step, int alter, int key, int fifths_change) {
